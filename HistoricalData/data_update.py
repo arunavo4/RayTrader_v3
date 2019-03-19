@@ -32,6 +32,7 @@ def merge_csv(file_old, file_new, file):
     # Reverse the data to make it look right
     # merged = merged.reindex(index=merged.index[::-1])
 
+    #Currently reversing the data in the code
     merged.to_csv(file_old, header=True)
 
     print("Merged! ", file)
