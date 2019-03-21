@@ -75,8 +75,8 @@ def main(file_name):
     global index_in_epoch
     # import dataset
     stock_name = file_name
-    export_dir = 'model/' + file_name
-    file_name = '.\\data\\' + file_name + '.csv'
+    export_dir = 'model_15/' + file_name
+    file_name = '.\\data_15\\' + file_name + '.csv'
     df_stock = csv_to_df(file_name)
 
     df_stock_norm = df_stock.copy()
@@ -111,11 +111,11 @@ def main(file_name):
 
 if __name__=="__main__":
 
-    abc = glob.glob(".\data\*.csv")
+    abc = glob.glob(".\data_30\*.csv")
     data_dir = []
 
     for f in abc:
-        data_dir.append(f.lstrip(".\\data\\").rstrip(".csv"))
+        data_dir.append(f.lstrip(".\\data_30\\").rstrip(".csv"))
 
     for in_file in data_dir:
         print("Processing :", in_file)

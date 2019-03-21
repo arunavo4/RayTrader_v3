@@ -41,7 +41,7 @@ def data_resample(file_name):
 
     ohlc_dict = {'Open': 'first', 'High': 'max', 'Low': 'min', 'Close': 'last', 'Vol': 'sum'}
 
-    #adding the base 15 adds an offset to the time
+    # adding the base 15 adds an offset to the time
     data = data.resample('30Min', base=15).apply(ohlc_dict).dropna(how='any')
 
     cols = ['Open', 'High', 'Low', 'Close', 'Vol']

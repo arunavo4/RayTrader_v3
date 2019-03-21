@@ -111,6 +111,7 @@ class MinuteData:
         # First time and Check the time
         if self.minute == -1:
             self.re_initialize(timestamp, ltp)
+
         elif self.minute != timestamp.minute and (timestamp.minute % self.interval) == 0:
             # Not the first time
             if self.minute != -1:
@@ -169,7 +170,7 @@ class RayTrader:
         self.first_tick = True
 
     def add_hist_data(self, price_list):
-        #Hack to make it work 
+        #Hack to make it work
         #Remove two duplicate rows
         self.df_stock = self.df_stock.iloc[:-2]
         #add the new data
@@ -184,7 +185,7 @@ class RayTrader:
         #Hack to make it work
         #Append two more same data
         self.df_stock = self.df_stock.append(price_df)
-        self.df_stock = self.df_stock.append(price_df)        
+        self.df_stock = self.df_stock.append(price_df)
 
 
     def load_hist_data(self, data):
@@ -225,6 +226,8 @@ class RayTrader:
             self.current_price = price_list[1:]
             self.add_hist_data(price_list)
 
+        #print the last few of data frame
+        self.print_w("Dataframe tail : {}".format(self.df_stock.tail()))
         # norm the data
         df_stock_norm = self.df_stock.copy()
         df_stock_norm = self.normalize_data(df_stock_norm)
@@ -399,17 +402,22 @@ class RayTrader:
             return round((self.pos_qty * (self.pos - ltp)),2)
 
     def cal_predicted_change(self, ltp):
-        # cal change in the close price
-        close = self.predicted_price[3]
+        #predicted change will be based on the 
+        #predicted price previous and last
+        prev_predicted_close = self.predicted_price[0]
+        predicted_close = self.predicted_price[1]
         change = 0.0
-        if ltp > close:
+
+        # cal change in the close price
+        if prev_predicted_close < predicted_close:
             # predicted -ve change
-            change = round(((ltp - close) / close) * 100, 2)
+            change = round(((predicted_close - prev_predicted_close) / prev_predicted_close) * 100, 2)
         else:
-            change = round(((close - ltp) / close) * 100, 2)
+            change = round(((prev_predicted_close - predicted_close) / prev_predicted_close) * 100, 2)
 
         self.print_w("Predicted change: {}".format(change))
         return change
+
 
     def cal_change(self, ltp):
         if ltp > self.open:
@@ -572,7 +580,7 @@ class RayTrader:
                 if not self.open_trade:
                     # Now decide whether to buy or sell stocks
                     ltp = float(tick['last_price'])
-                    if ltp < self.predicted_price[3]:
+                    if self.predicted_price[0] < self.predicted_price[1]:
                         # check if stock not already bought
                         if self.long == False:
                             self.pos = self.trail_pos = float(tick['last_price'])
@@ -660,7 +668,7 @@ def select_stocks(ticks, return_no=1):
             # Store the rest of the change and sort it out
             stock_symbol = stock_list[token_list.index(tick['instrument_token'])]
             trader_obj = class_object_dict[stock_symbol]
-            # select stocks which have a change of more than 0.3% atleast
+            # select stocks which have a change of more than 0.6% atleast
             change = round(trader_obj.cal_predicted_change(float(tick['last_price'])), 2)
             if change > 0.6 and change < 5:
                 tup = (int(tick['instrument_token']), change)
@@ -704,7 +712,6 @@ def csv_to_df(csv_file):
     df = df.reindex(index=df.index[::-1])
     # Drop 200 rows
     df = df.iloc[:-200]
-    # print(df.tail(1))
     #The hack for it to take the last value
     #Add two rows for the perfect prediction
     df = df.append(df.iloc[-1])
@@ -756,8 +763,8 @@ def on_ticks(ws, ticks, timestamp):
             minute = timestamp.minute
 
         # Zerodha squareoff time is 3:20
-        # So dont take any trades after 11 am
-        if timestamp.hour < 11:
+        # So dont take any trades after 3 pm
+        if timestamp.hour < 15:
             # Now seperate the ticks and call on_tick of repective objects
             for tick in ticks:
                 stock_symbol = stock_list[token_list.index(tick['instrument_token'])]
@@ -768,14 +775,15 @@ def on_ticks(ws, ticks, timestamp):
                         # exit from the trade
                         trader_obj.exit_trades(tick, timestamp)
 
-                if run_15_min_job:
-                    #Here you wanna call all the save func even if they
-                    #dont have tick this time
-                    for stock in stock_list:
-                        if class_min_dict[stock].minute != timestamp.minute:
-                            class_min_dict[stock].save_data(timestamp)
-                            class_min_dict[stock].re_initialize(timestamp,float(tick['last_price']))
                 class_min_dict[stock_symbol].update(timestamp, float(tick['last_price']))
+
+            if run_15_min_job:
+                #Here you wanna call all the save func even if they
+                #dont have tick this time
+                for stock in stock_list:
+                    if class_min_dict[stock].minute != timestamp.minute:
+                        class_min_dict[stock].save_data(timestamp)
+                        # class_min_dict[stock_symbol].re_initialize(timestamp, float(tick['last_price']))
 
                 # stock_file_path = dir_path + "/" + stock_symbol + ".csv"
                 # df = pd.DataFrame(tick, index=[timestamp])
@@ -834,7 +842,7 @@ def on_ticks(ws, ticks, timestamp):
 
 # Load the tick data and call on_tick()
 print("Loading tick data")
-data_dir = [ ".\\live_ticks\\2019-03-12\\" + str(i) + ".out" for i in range(18,377)]
+data_dir = [ ".\\live_ticks\\2019-03-06\\" + str(i) + ".out" for i in range(2,377)]
 
 init_bal = BALANCE
 print("Initial Balance: ",BALANCE)

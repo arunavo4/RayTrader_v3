@@ -10,7 +10,6 @@ import sklearn.preprocessing
 import glob
 import tensorflow as tf
 import numpy as np
-# from kiteconnect import KiteConnect, KiteTicker
 from sklearn.exceptions import DataConversionWarning
 warnings.filterwarnings(action='ignore', category=DataConversionWarning)
 tf.logging.info('TensorFlow')
@@ -91,8 +90,8 @@ def get_next_batch(batch_size, x_train, perm_array, y_train):
 def main(file_name):
     global index_in_epoch
     # import dataset
-    export_dir = 'model/' + file_name
-    file_name = '.\\data\\' + file_name + '.csv'
+    export_dir = 'model_30/' + file_name
+    file_name = '.\\data_30\\' + file_name + '.csv'
     df_stock = csv_to_df(file_name)
 
     df_stock_norm = df_stock.copy()
@@ -177,24 +176,24 @@ def main(file_name):
     print(y_test_pred.shape)
 
     # ploting the graph
-    comp = pd.DataFrame({'Column1': y_test[:, 3], 'Column2': y_test_pred[:, 3]})
-    plt.figure(figsize=(10, 5))
-    plt.plot(comp['Column1'], color='blue', label='Target')
-    plt.plot(comp['Column2'], color='black', label='Prediction')
-    plt.legend()
-    plt.show()
+    # comp = pd.DataFrame({'Column1': y_test[:, 3], 'Column2': y_test_pred[:, 3]})
+    # plt.figure(figsize=(10, 5))
+    # plt.plot(comp['Column1'], color='blue', label='Target')
+    # plt.plot(comp['Column2'], color='black', label='Prediction')
+    # plt.legend()
+    # plt.show()
 
 
 if __name__=="__main__":
 
-    abc = glob.glob(".\data\*.csv")
+    abc = glob.glob(".\data_30\*.csv")
     data_dir = []
 
     for f in abc:
-        data_dir.append(f.lstrip(".\\data\\").rstrip(".csv"))
+        data_dir.append(f.lstrip(".\\data_30\\").rstrip(".csv"))
 
     for in_file in data_dir:
         print("Processing :", in_file)
         main(in_file)
-        time.sleep(1)
+        time.sleep(60)
         # break
