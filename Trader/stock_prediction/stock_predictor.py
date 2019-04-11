@@ -121,8 +121,8 @@ def get_next_batch(batch_size):
 # layers = [tf.contrib.rnn.BasicRNNCell(num_units=n_neurons, activation=tf.nn.elu)
 #           for layer in range(n_layers)]
 # LSTM
-layers = [tf.contrib.rnn.BasicLSTMCell(num_units=n_neurons, activation=tf.nn.elu)
-       for layer in range(n_layers)]
+# layers = [tf.contrib.rnn.BasicLSTMCell(num_units=n_neurons, activation=tf.nn.elu)
+#        for layer in range(n_layers)]
 
 # LSTM with peephole connections
 # layers = [tf.contrib.rnn.LSTMCell(num_units=n_neurons,
@@ -130,8 +130,14 @@ layers = [tf.contrib.rnn.BasicLSTMCell(num_units=n_neurons, activation=tf.nn.elu
 #          for layer in range(n_layers)]
 
 #GRU
-# layers = [tf.contrib.rnn.GRUCell(num_units=n_neurons, activation=tf.nn.leaky_relu)
-#          for layer in range(n_layers)]
+layers = [tf.contrib.rnn.GRUCell(num_units=n_neurons, activation=tf.nn.leaky_relu)
+         for layer in range(n_layers)]
+# layers = []
+# for layer in range(n_layers):
+#     cell = tf.contrib.rnn.BasicLSTMCell(num_units=n_neurons, activation=tf.nn.elu)
+#     cell = tf.contrib.rnn.DropoutWrapper(cell, output_keep_prob=0.5)
+#     layers.append(cell)
+
 
 multi_layer_cell = tf.contrib.rnn.MultiRNNCell(layers)
 rnn_outputs, states = tf.nn.dynamic_rnn(multi_layer_cell, X, dtype=tf.float32)

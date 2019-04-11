@@ -35,6 +35,7 @@ tf.logging.info('TensorFlow')
 # BALANCE = config['PROFILE']['BALANCE']
 
 BALANCE = 2000
+init_bal = BALANCE
 target_percent = 15
 stoploss_percent = 7.5
 stop_trading = False
@@ -844,7 +845,6 @@ def on_ticks(ws, ticks, timestamp):
 print("Loading tick data")
 data_dir = [ ".\\live_ticks\\2019-03-06\\" + str(i) + ".out" for i in range(2,377)]
 
-init_bal = BALANCE
 print("Initial Balance: ",BALANCE)
 
 for in_file in data_dir:

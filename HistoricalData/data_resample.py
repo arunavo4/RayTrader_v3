@@ -27,7 +27,7 @@ def csv_to_df(csv_file):
 
 
 def data_resample(file_name):
-    file_new = './Min_30_data/' + os.path.split(file_name)[-1]
+    file_new = './Min_10_data/' + os.path.split(file_name)[-1]
 
     data = csv_to_df(file_name)
     # data = data.convert_objects(convert_numeric=True)
@@ -42,7 +42,7 @@ def data_resample(file_name):
     ohlc_dict = {'Open': 'first', 'High': 'max', 'Low': 'min', 'Close': 'last', 'Vol': 'sum'}
 
     # adding the base 15 adds an offset to the time
-    data = data.resample('30Min', base=15).apply(ohlc_dict).dropna(how='any')
+    data = data.resample('10Min', base=15).apply(ohlc_dict).dropna(how='any')
 
     cols = ['Open', 'High', 'Low', 'Close', 'Vol']
     data = data[cols]
