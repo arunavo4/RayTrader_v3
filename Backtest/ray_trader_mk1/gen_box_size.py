@@ -158,7 +158,7 @@ def get_optimal_box_size(csv_file):
     # reindex the df to make it look right
     df = df.reindex(index=df.index[::-1])
     # drop unnecessary rows
-    index = pd.to_datetime("08-03-2019 09:29:00 AM", format='%d-%m-%Y %I:%M:%S %p')
+    index = pd.to_datetime("13-03-2019 09:29:00 AM", format='%d-%m-%Y %I:%M:%S %p')
     df = df[:index]
     # Get ATR values (it needs to get boundaries)
     atr = talib.ATR(high=np.double(df.High),

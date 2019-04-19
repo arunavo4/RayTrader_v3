@@ -772,7 +772,7 @@ def csv_to_df(csv_file):
     df = df.set_index('Date')
     # reindex the df to make it look right
     df = df.reindex(index=df.index[::-1])
-    index = pd.to_datetime("08-03-2019 09:29:00 AM", format='%d-%m-%Y %I:%M:%S %p')
+    index = pd.to_datetime("13-03-2019 09:29:00 AM", format='%d-%m-%Y %I:%M:%S %p')
     df = df[:index]
     # print(df.tail())
     return df
@@ -871,7 +871,7 @@ def on_ticks(ws, ticks, timestamp):
 # You have to use the pre-defined callbacks to manage subscriptions.
 # kws.connect()
 print("Loading tick data")
-data_dir = [ ".\\live_ticks\\2019-03-08\\" + str(i) + ".out" for i in range(17,377)]
+data_dir = [ ".\\live_ticks\\2019-03-13\\" + str(i) + ".out" for i in range(17,377)]
 
 print("Initial Balance: ",BALANCE)
 
