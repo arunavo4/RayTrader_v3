@@ -1,19 +1,6 @@
 """
-@########################### Same Trend Strategy But With Single Stock ###############################
-
-This strategy is based on the fact that, when there is a sudden change in trend it will  continue
-more than one day.
-
-So we need to look for a falling trend or a buying trend continuous for at least 3-4 days
-and then there is a change in trend. wait for one day to confirm
-now check these in a day candle. and select the stocks
-
-On the day of trading , open a 5 min candle .
-In the first 5 min candle we need to check if its green , we buy 5-10 paisa over the High of first candle
-and the mid of the candle is the stop-loss and the range of the first candle is the target.
-
+@########################### Open=High or Open=Low Strategy ###############################
 """
-
 
 import pandas as pd
 import glob
@@ -95,6 +82,7 @@ def csv_to_df(csv_file):
     return df
 
 
+
 def data_resample(df_orgi, sample_size):
     # file_new = './Min_10_data/' + os.path.split(file_name)[-1]
     # sample_size = '10Min'
@@ -125,48 +113,36 @@ def data_resample(df_orgi, sample_size):
     return data
 
 
-def check_trend(df):
-    direction = []
-
-    for i in range(df.shape[0]):
-        data = df.iloc[i]
-        if data['Open'] > data['Close']:
-            direction.append('-')
-        else:
-            direction.append('+')
-
-    # Now u need to find 3 consecutive +++ or ---
-    dir_str = ''.join(direction[:4])
-
-    if dir_str.find('---+') == 0:
-        return True
-    elif dir_str.find('+++-') == 0:
-        return True
-
-    return False
-
-
 def runner_code():
     # Start from 3 day later, I need to check and shortlist those
     # stocks that was going in a dir in past 3 days and now its moving
     # in opp dir so that's our stock
-    init_index_day = 5
+    init_index_day = 1
     total_days = stock_df_day[stock_list[0]].shape[0]
     total_win_loss = []
     for day in range(total_days - init_index_day):
         win_loss = []
         end_index = init_index_day
-        start_index = init_index_day - 5
+        start_index = init_index_day - 1
         init_index_day += 1
         date = ''
         selected_stocks = []
+        selected_stocks_dict = {}
         for stock in stock_list:
             df = stock_df_day[stock].copy()
             try:
                 date = df.index[end_index]
                 data = df[start_index:end_index]
-                if check_trend(data):
-                    # Now we can trade in this stock
+                prev_day = data.iloc[0]
+                if prev_day['Open'] == prev_day['High']:
+                    # print(stock)
+                    # print(prev_day)
+                    selected_stocks_dict[stock] = 'S'
+                    selected_stocks.append(stock)
+                elif prev_day['Open'] == prev_day['Low']:
+                    # print(stock)
+                    # print(prev_day)
+                    selected_stocks_dict[stock] = 'B'
                     selected_stocks.append(stock)
 
             except:
@@ -175,48 +151,43 @@ def runner_code():
                 print(df.shape[0])
                 print(end_index)
         print("Day:", date)
-        print(selected_stocks)
+        # print(selected_stocks)
+        print(selected_stocks_dict)
         start_date_time = pd.to_datetime(date, format='%d-%m-%Y %H:%M:%S')
         start_date_time = start_date_time.to_pydatetime().replace(hour=9, minute=15)
         end_date_time = pd.to_datetime(date, format='%d-%m-%Y %H:%M:%S')
         end_date_time = end_date_time.to_pydatetime().replace(hour=15, minute=29)
         # Now check the 5 min candle data to decide Buy or Sell
         for stock in selected_stocks:
-            df_5_Min = stock_df_5min[stock].copy()
-            start_date_time = start_date_time.replace(hour=9, minute=15)
-            data_5 = df_5_Min[start_date_time:end_date_time]
-
-            start_date_time = start_date_time.replace(hour=9, minute=20)
             data_1 = stock_df_min[stock].copy()
             data_1 = data_1[start_date_time:end_date_time]
             # check the first candle in 5min
 
-            first_candle = data_5.iloc[0]
+            first_candle = data_1.iloc[0]
 
             out = 0
-            if float(first_candle['Open']) > float(first_candle['Close']) and first_candle['High'] == first_candle['Open']:
+            if selected_stocks_dict[stock]=='B':
                 # Red candle
                 # print("\n\n Stock: ", stock)
-                # print("First 5 min Candle:")
+                # print("First 1 min Candle:")
                 # print(first_candle)
-                stoploss = round(float(first_candle['Close'])+((0.3/100)*float(first_candle['Close'])), 2)
-                target = round(float(first_candle['Close'])-((0.6/100)*float(first_candle['Close'])), 2)
-                out = trader(data_1, 'Sell', float(first_candle['Close']), stoploss, target)
+                stoploss = round(float(first_candle['Open'])+((0.3/100)*float(first_candle['Open'])), 2)
+                target = round(float(first_candle['Open'])-((0.6/100)*float(first_candle['Open'])), 2)
+                out = trader(data_1, 'Sell', float(first_candle['Open']), stoploss, target)
                 win_loss.append(out)
                 # print("Sell")
                 # print("Price:", first_candle['Low'], "target:", target, "Stoploss:", stoploss)
-            elif float(first_candle['Open']) < float(first_candle['Close']) and first_candle['Low'] == first_candle['Open']:
+            elif selected_stocks_dict[stock]=='S':
                 # Green candle
                 # print("\n\n Stock: ", stock)
-                # print("First 5 min Candle:")
+                # print("First 1 min Candle:")
                 # print(first_candle)
-                stoploss = round(float(first_candle['Close']) - ((0.3 / 100) * float(first_candle['Close'])), 2)
-                target = round(float(first_candle['Close']) + ((0.6 / 100) * float(first_candle['Close'])), 2)
-                out = trader(data_1, 'Buy', float(first_candle['Close']), stoploss, target)
+                stoploss = round(float(first_candle['Open']) - ((0.3 / 100) * float(first_candle['Open'])), 2)
+                target = round(float(first_candle['Open']) + ((0.6 / 100) * float(first_candle['Open'])), 2)
+                out = trader(data_1, 'Buy', float(first_candle['Open']), stoploss, target)
                 win_loss.append(out)
                 # print("Buy")
                 # print("Price:", first_candle['High'], "target:", target, "Stoploss:", stoploss)
-
 
             # break
         print("Wins: ",win_loss.count(1),"\t","Loss: ",win_loss.count(-1))
@@ -247,7 +218,6 @@ for f in data_dir:
         stock = os.path.split(f)[-1].split("-")[0]
         stock_list.append(stock)
         stock_df_min[stock] = csv_to_df(f)
-        stock_df_5min[stock] = data_resample(stock_df_min[stock], '5Min')
         stock_df_day[stock] = data_resample(stock_df_min[stock], 'D')
     except:
         print(f)

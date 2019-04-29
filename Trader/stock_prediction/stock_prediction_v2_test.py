@@ -141,13 +141,14 @@ np.random.seed(1234)
 #     validation_data=(x_valid,y_valid),initial_epoch = 0,
 #     shuffle=True, callbacks=[checkpoint_callback]
 # )
-model = tf.keras.models.load_model('stateless_BiGRU_pretrained.hdf5')
+model = tf.keras.models.load_model('stateful_SimpleRNN_pretrained.hdf5')
 
 y_test_pred = model.predict(x_test, batch_size=batch_size)
 
 print(y_test_pred.shape)
 
 model.evaluate(x_test,y_test)
+
 
 # tf.reset_default_graph()
 # X = tf.placeholder(tf.float32, [None, n_steps, n_inputs], name="myInput")
