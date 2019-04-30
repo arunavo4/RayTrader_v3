@@ -1,38 +1,17 @@
 """
-This code basically has all the inputs needed for neat:
+This code basically has all the inputs needed for neat-trader:
 
 CandleStick Patterns:
-1.Three Line Strike
-2.Three Black Crows
-3.Evening Star
-4.Abandoned Baby
-5.Harami pattern
-6.Harami cross pattern
-7.Engulfing Pattern
-8.Hammer
-9.Inverted Hammer
-10.Piercing Pattern
+1.Three Line Strike || 2.Three Black Crows || 3.Evening Star || 4.Abandoned Baby ||
+5.Harami pattern || 6.Harami cross pattern || 7.Engulfing Pattern || 8.Hammer ||
+9.Inverted Hammer || 10.Piercing Pattern
 
 Technical Indicators:
-1.EMA(5),(10),(20)
-2.SMA(5),(10),(20)
-3.Hull MA(9)
-4.Volume Weighted MA(20)
-5.BETA()
-6.RSI(14),(8)
-7.ADX(14)
-8.Momentum(10)
-9.Macd(12,26,9)
-10.Awesome Osc
-11.Stochastic(14,3,3)
-12.Stochastic Fast
-13.Stochastic Relative Strength Index(3,3,14,14)
-14.Ultimate Oscillator(7,14,28)
-15.Williams' %R(14)
-16.TSF
-17.STDDEV
-18.VAR
-19.CCI
+1.EMA(5),(10),(20) || 2.SMA(5),(10),(20) || 3.Hull MA(9) || 4.Volume Weighted MA(20)
+5.BETA() || 6.RSI(14),(8) || 7.ADX(14) || 8.Momentum(10) || 9.Macd(12,26,9)
+10.Awesome Osc || 11.Stochastic(14,3,3) || 12.Stochastic Fast
+13.Stochastic Relative Strength Index(3,3,14,14) || 14.Ultimate Oscillator(7,14,28)
+15.Williams' %R(14) || 16.TSF || 17.STDDEV || 18.VAR || 19.CCI
 """
 
 import pandas as pd
@@ -94,19 +73,19 @@ def cal_inputs():
         print("\n Stock: ", stock)
 
         # Technical Indicators
-        ema_5 = talib.EMA(data['Close'],5)
-        ema_10 = talib.EMA(data['Close'],10)
-        ema_20 = talib.EMA(data['Close'],20)
+        ema_5_by_10 = talib.EMA(data['Close'],5)/talib.EMA(data['Close'],10)
+        ema_10_by_20 = talib.EMA(data['Close'],10)/talib.EMA(data['Close'],20)
+        # ema_20 = talib.EMA(data['Close'],20)
 
-        sma_5 = talib.SMA(data['Close'], 5)
-        sma_10 = talib.SMA(data['Close'], 10)
-        sma_20 = talib.SMA(data['Close'], 20)
+        sma_5_by_10 = talib.SMA(data['Close'], 5)/talib.SMA(data['Close'], 10)
+        sma_10_by_20 = talib.SMA(data['Close'], 10)/talib.SMA(data['Close'], 20)
+        # sma_20 = talib.SMA(data['Close'], 20)
 
-        hma = get_hma(data['Close'],9)
+        hma_9_by_18 = get_hma(data['Close'],9)/get_hma(data['Close'],18)
 
         bop = talib.BOP(data['Open'],data['High'],data['Low'],data['Close'])
 
-        vwma = get_vwma(data['Close'],data['Vol'],20)
+        # vwma = get_vwma(data['Close'],data['Vol'],20)
 
         beta = talib.BETA(data['High'],data['Low'])
         rsi = talib.RSI(data['Close'])
@@ -121,30 +100,30 @@ def cal_inputs():
 
         ulti = talib.ULTOSC(data['High'],data['Low'],data['Close'])
 
-        chalkin_ad_osc = talib.ADOSC(data['High'],data['Low'],data['Close'],data['Vol'])
+        # chalkin_ad_osc = talib.ADOSC(data['High'],data['Low'],data['Close'],data['Vol'])
         wills_r = talib.WILLR(data['High'],data['Low'],data['Close'])
 
-        print("ema_5:(last)", round(ema_5[-1],2))
-        print("ema_10:(last)", round(ema_10[-1],2))
-        print("ema_20:(last)", round(ema_20[-1],2))
+        print("ema_5:(last)", round(ema_5_by_10[-1],6))
+        print("ema_10:(last)", round(ema_10_by_20[-1],6))
+        # print("ema_20:(last)", round(ema_20[-1],6))
 
-        print("sma_5:(last)",round(sma_5[-1],2))
-        print("sma_10:(last)",round(sma_10[-1],2))
-        print("sma_20:(last)",round(sma_20[-1],2))
+        print("sma_5:(last)",round(sma_5_by_10[-1],6))
+        print("sma_10:(last)",round(sma_10_by_20[-1],6))
+        # print("sma_20:(last)",round(sma_20[-1],6))
 
-        print("HMA:(last)",round(hma[-1],2))
-        print("BOP: (last)",round(bop[-1],2))
-        print("Vol weighted MA:(last)",round(vwma[-1],2))
-        print("BETA :(last)",round(beta[-1],2))
-        print("RSI :(last)",round(rsi[-1],2))
-        print("ADI:(last)",round(adi[-1],2))
-        print("NATR:(last)",round(natr[-1],2))
+        print("HMA:(last)",round(hma_9_by_18[-1],6))
+        print("BOP: (last)",round(bop[-1],6))
+        # print("Vol weighted MA:(last)",round(vwma[-1],6))
+        print("BETA :(last)",round(beta[-1],6))
+        print("RSI :(last)",round(rsi[-1],6))
+        print("ADI:(last)",round(adi[-1],6))
+        print("NATR:(last)",round(natr[-1],6))
         print("MOM:(last)",round(mom[-1],2))
-        print("MACD :(last)",round(macd[-1],2),round(macdsignal[-1],2),round(macdhist[-1],2))
-        print("STOCK RSI :(last)",round(fastk[-1],2),round(fastd[-1],2))
-        print("Ultimate Osc: (last)",round(ulti[-1],2))
-        print("chalkin_ad Osc: (last)",round(chalkin_ad_osc[-1],2))
-        print("Williams: (last)",round(wills_r[-1],2))
+        print("MACD :(last)",round(macd[-1],6),round(macdsignal[-1],6),round(macdhist[-1],6))
+        print("STOCK RSI :(last)",round(fastk[-1],6),round(fastd[-1],6))
+        print("Ultimate Osc: (last)",round(ulti[-1],6))
+        # print("chalkin_ad Osc: (last)",round(chalkin_ad_osc[-1],6))
+        print("Williams: (last)",round(wills_r[-1],6))
         print("")
 
         # pattern recognition
