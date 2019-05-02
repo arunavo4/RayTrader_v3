@@ -51,6 +51,20 @@ def csv_to_df(csv_file):
     # print(df.tail())
     return df
 
+
+def awesome_osc(high, low, s=5, len=34):
+    """Awesome Oscillator
+    MEDIAN PRICE = (HIGH+LOW)/2
+    AO = SMA(MEDIAN PRICE, 5)-SMA(MEDIAN PRICE, 34)
+    where
+    SMA — Simple Moving Average.
+    """
+    mp = 0.5 * (high + low)
+    # ao = mp.rolling(s, min_periods=0).mean() - mp.rolling(len, min_periods=0).mean()
+    ao = talib.SMA(mp,s) - talib.SMA(mp,len)
+    return ao
+
+
 def get_hma( price, timeperiod=14):
     # HMA= WMA(2*WMA(n/2) − WMA(n)),sqrt(n))
     return (talib.WMA(
@@ -71,7 +85,7 @@ def cal_inputs():
     for stock in stock_list:
         data = stock_df_min[stock]
         print("\n Stock: ", stock)
-
+        # index = pd.to_datetime("10-04-2019 03:29:00 PM", format='%d-%m-%Y %I:%M:%S %p')
         # Technical Indicators
         ema_5_by_10 = talib.EMA(data['Close'],5)/talib.EMA(data['Close'],10)
         ema_10_by_20 = talib.EMA(data['Close'],10)/talib.EMA(data['Close'],20)
@@ -99,6 +113,7 @@ def cal_inputs():
         fastk, fastd = talib.STOCHRSI(data['Close'])
 
         ulti = talib.ULTOSC(data['High'],data['Low'],data['Close'])
+        awe_osc = awesome_osc(data['High'],data['Low'])
 
         # chalkin_ad_osc = talib.ADOSC(data['High'],data['Low'],data['Close'],data['Vol'])
         wills_r = talib.WILLR(data['High'],data['Low'],data['Close'])
@@ -124,6 +139,7 @@ def cal_inputs():
         print("Ultimate Osc: (last)",round(ulti[-1],6))
         # print("chalkin_ad Osc: (last)",round(chalkin_ad_osc[-1],6))
         print("Williams: (last)",round(wills_r[-1],6))
+        print("Awesome Osc:",round(awe_osc[-1]))
         print("")
 
         # pattern recognition

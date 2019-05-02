@@ -15,11 +15,10 @@ Technical Indicators:
 """
 
 import pandas as pd
-import glob
-import os
 import talib
 import math
 from numpy import array
+from collections import OrderedDict
 
 
 # Func to load the csv and return a data-frame
@@ -48,7 +47,32 @@ def csv_to_df(csv_file):
     return df
 
 
-def get_hma( price, timeperiod=14):
+def split_data(data, train_per=80):
+    train_size = int(round(train_per / 100 * data.shape[0]))
+    train = data[:train_size]
+    test = data[train_size:]
+    return train,test
+
+
+def get_inputs(signals, timestep):
+    input_signals = []
+    for s in signals.values():
+        input_signals.append(round(s[timestep],8))
+
+    return input_signals
+
+
+def awesome_osc(high, low, s=5, len=34):
+    """Awesome Oscillator
+    MEDIAN PRICE = (HIGH+LOW)/2
+    AO = SMA(MEDIAN PRICE, 5)-SMA(MEDIAN PRICE, 34)
+    """
+    mp = 0.5 * (high + low)
+    ao = talib.SMA(mp,s) - talib.SMA(mp,len)
+    return ao
+
+
+def get_hma(price, timeperiod=14):
     # HMA= WMA(2*WMA(n/2) − WMA(n)),sqrt(n))
     return (talib.WMA(
         2 * talib.WMA(price, timeperiod=math.floor(timeperiod / 2)) - talib.WMA(price, timeperiod=timeperiod),
@@ -64,61 +88,64 @@ def get_vwma(price, vol, timeperiod=14):
     return vwma
 
 
-def get_signals(data):
+def get_signals(data, tech_in=True, patterns=True):
     # dict to store signals
-    signals = {}
+    signals = OrderedDict()
 
     # Technical Indicators
-    signals["ema_5_by_10"] = talib.EMA(data['Close'], 5) / talib.EMA(data['Close'], 10)
-    signals["ema_10_by_20"] = talib.EMA(data['Close'], 10) / talib.EMA(data['Close'], 20)
-    signals["sma_5_by_10"] = talib.SMA(data['Close'], 5) / talib.SMA(data['Close'], 10)
-    signals["sma_10_by_20"] = talib.SMA(data['Close'], 10) / talib.SMA(data['Close'], 20)
-    signals["hma_9_by_18"] = get_hma(data['Close'], 9) / get_hma(data['Close'], 18)
-    signals["bop"] = talib.BOP(data['Open'], data['High'], data['Low'], data['Close'])
-    signals["beta"] = talib.BETA(data['High'], data['Low'])
-    signals["rsi"] = talib.RSI(data['Close'])
-    signals["adi"] = talib.ADX(data['High'], data['Low'], data['Close'])
-    signals["natr"] = talib.NATR(data['High'], data['Low'], data['Close'])
-    signals["mom"] = talib.MOM(data['Close'])
-    macd, macdsignal, macdhist = talib.MACD(data['Close'])
-    signals["macd"] = macd
-    signals["macdsignal"] = macdsignal
-    signals["macdhist"] = macdhist
-    fastk, fastd = talib.STOCHRSI(data['Close'])
-    signals["fastk"] = fastk
-    signals["fastd"] = fastd
-    signals["ulti"] = talib.ULTOSC(data['High'], data['Low'], data['Close'])
-    signals["wills_r"] = talib.WILLR(data['High'], data['Low'], data['Close'])
+    if tech_in:
+        signals["ema_5_by_10"] = talib.EMA(data['Close'], 5) / talib.EMA(data['Close'], 10)
+        signals["ema_10_by_20"] = talib.EMA(data['Close'], 10) / talib.EMA(data['Close'], 20)
+        signals["sma_5_by_10"] = talib.SMA(data['Close'], 5) / talib.SMA(data['Close'], 10)
+        signals["sma_10_by_20"] = talib.SMA(data['Close'], 10) / talib.SMA(data['Close'], 20)
+        signals["hma_9_by_18"] = get_hma(data['Close'], 9) / get_hma(data['Close'], 18)
+        signals["bop"] = talib.BOP(data['Open'], data['High'], data['Low'], data['Close'])
+        signals["beta"] = talib.BETA(data['High'], data['Low'])
+        signals["rsi"] = talib.RSI(data['Close'])
+        signals["adi"] = talib.ADX(data['High'], data['Low'], data['Close'])
+        signals["natr"] = talib.NATR(data['High'], data['Low'], data['Close'])
+        signals["mom"] = talib.MOM(data['Close'])
+        macd, macdsignal, macdhist = talib.MACD(data['Close'])
+        signals["macd"] = macd
+        signals["macdsignal"] = macdsignal
+        signals["macdhist"] = macdhist
+        fastk, fastd = talib.STOCHRSI(data['Close'])
+        signals["fastk"] = fastk
+        signals["fastd"] = fastd
+        signals["ulti"] = talib.ULTOSC(data['High'], data['Low'], data['Close'])
+        signals["awesome"] = awesome_osc(data['High'],data['Low'])
+        signals["wills_r"] = talib.WILLR(data['High'], data['Low'], data['Close'])
 
-    # pattern recognition
-    signals["three_line_strike"] = talib.CDL3LINESTRIKE(data['Open'], data['High'], data['Low'], data['Close'])
+    if patterns:
+        # pattern recognition
+        signals["three_line_strike"] = talib.CDL3LINESTRIKE(data['Open'], data['High'], data['Low'], data['Close'])
 
-    signals["three_black_crows"] = talib.CDL3BLACKCROWS(data['Open'], data['High'], data['Low'], data['Close'])
+        signals["three_black_crows"] = talib.CDL3BLACKCROWS(data['Open'], data['High'], data['Low'], data['Close'])
 
-    signals["doji_star"] = talib.CDLDOJISTAR(data['Open'], data['High'], data['Low'], data['Close'])
+        signals["doji_star"] = talib.CDLDOJISTAR(data['Open'], data['High'], data['Low'], data['Close'])
 
-    signals["evening_doji_star"] = talib.CDLEVENINGDOJISTAR(data['Open'], data['High'], data['Low'], data['Close'])
+        signals["evening_doji_star"] = talib.CDLEVENINGDOJISTAR(data['Open'], data['High'], data['Low'], data['Close'])
 
-    signals["morning_doji_star"] = talib.CDLMORNINGDOJISTAR(data['Open'], data['High'], data['Low'], data['Close'])
+        signals["morning_doji_star"] = talib.CDLMORNINGDOJISTAR(data['Open'], data['High'], data['Low'], data['Close'])
 
-    signals["morning_star"] = talib.CDLMORNINGSTAR(data['Open'], data['High'], data['Low'], data['Close'])
+        signals["morning_star"] = talib.CDLMORNINGSTAR(data['Open'], data['High'], data['Low'], data['Close'])
 
-    signals["evening_star"] = talib.CDLEVENINGSTAR(data['Open'], data['High'], data['Low'], data['Close'])
+        signals["evening_star"] = talib.CDLEVENINGSTAR(data['Open'], data['High'], data['Low'], data['Close'])
 
-    signals["shooting_star"] = talib.CDLSHOOTINGSTAR(data['Open'], data['High'], data['Low'], data['Close'])
+        signals["shooting_star"] = talib.CDLSHOOTINGSTAR(data['Open'], data['High'], data['Low'], data['Close'])
 
-    signals["engulfing_patt"] = talib.CDLENGULFING(data['Open'], data['High'], data['Low'], data['Close'])
+        signals["engulfing_patt"] = talib.CDLENGULFING(data['Open'], data['High'], data['Low'], data['Close'])
 
-    signals["hammer"] = talib.CDLHAMMER(data['Open'], data['High'], data['Low'], data['Close'])
+        signals["hammer"] = talib.CDLHAMMER(data['Open'], data['High'], data['Low'], data['Close'])
 
-    signals["inverted_hammer"] = talib.CDLINVERTEDHAMMER(data['Open'], data['High'], data['Low'], data['Close'])
+        signals["inverted_hammer"] = talib.CDLINVERTEDHAMMER(data['Open'], data['High'], data['Low'], data['Close'])
 
-    signals["hanging_man"] = talib.CDLHANGINGMAN(data['Open'], data['High'], data['Low'], data['Close'])
+        signals["hanging_man"] = talib.CDLHANGINGMAN(data['Open'], data['High'], data['Low'], data['Close'])
 
-    signals["harami"] = talib.CDLHARAMI(data['Open'], data['High'], data['Low'], data['Close'])
+        signals["harami"] = talib.CDLHARAMI(data['Open'], data['High'], data['Low'], data['Close'])
 
-    signals["harami_cross"] = talib.CDLHARAMICROSS(data['Open'], data['High'], data['Low'], data['Close'])
+        signals["harami_cross"] = talib.CDLHARAMICROSS(data['Open'], data['High'], data['Low'], data['Close'])
 
-    signals["piercing"] = talib.CDLPIERCING(data['Open'], data['High'], data['Low'], data['Close'])
+        signals["piercing"] = talib.CDLPIERCING(data['Open'], data['High'], data['Low'], data['Close'])
 
     return signals

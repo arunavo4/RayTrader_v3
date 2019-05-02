@@ -4,9 +4,14 @@ import numpy as np
 import neat
 import pickle
 
-env = retro.make(game="SonicTheHedgehog-Genesis", state="GreenHillZone.Act1")
-imgarray = []
-xpos_end = 0
+file_name = "G:\\AI Trading\\Code\\RayTrader_v3\\HistoricalData\\Min_data\\ADANIPORTS-EQ.csv"
+data = trader_data.csv_to_df(file_name)
+train_data, test_data = trader_data.split_data(data)
+signals = trader_data.get_signals(data)
+
+initial_start_index = 40
+
+env = trader_env.Weighted_Unrealized_BS_Env(train_data[initial_start_index:])
 
 resume = False
 restore_file = "neat-checkpoint-601"
@@ -15,42 +20,25 @@ restore_file = "neat-checkpoint-601"
 def eval_genomes(genomes, config):
     for genome_id, genome in genomes:
         ob = env.reset()
-        ac = env.action_space.sample()
-
-        inx, iny, inc = env.observation_space.shape
-
-        inx = int(inx / 8)
-        iny = int(iny / 8)
 
         net = neat.nn.recurrent.RecurrentNetwork.create(genome, config)
 
         current_max_fitness = 0
         fitness_current = 0
-        frame = 0
         counter = 0
-        xpos = 0
+        step = initial_start_index
+        step_max = len(train_data) - 1
 
         done = False
 
         while not done:
 
-            env.render()
-            frame += 1
-            ob = cv2.resize(ob, (inx, iny))
-            ob = cv2.cvtColor(ob, cv2.COLOR_BGR2GRAY)
-            ob = np.reshape(ob, (inx, iny))
+            inputs = trader_data.get_inputs(signals,step)
 
-            imgarray = np.ndarray.flatten(ob)
+            nnOutput = net.activate(inputs)
 
-            nnOutput = net.activate(imgarray)
-
-            ob, rew, done, info = env.step(nnOutput)
-
-            xpos = info['x']
-
-            if xpos >= 65664:
-                fitness_current += 10000000
-                done = True
+            ob, rew, done = env.step(np.argmax(nnOutput))
+            # print("act:",np.argmax(nnOutput),"reward:",rew)
 
             fitness_current += rew
 
@@ -59,6 +47,11 @@ def eval_genomes(genomes, config):
                 counter = 0
             else:
                 counter += 1
+
+            if step >= step_max:
+                done = True
+            else:
+                step += 1
 
             if done or counter == 250:
                 done = True
@@ -69,9 +62,9 @@ def eval_genomes(genomes, config):
 
 config = neat.Config(neat.DefaultGenome, neat.DefaultReproduction,
                      neat.DefaultSpeciesSet, neat.DefaultStagnation,
-                     'config-feedforward')
+                     'config')
 
-if resume == True:
+if resume:
     p = neat.Checkpointer.restore_checkpoint(restore_file)
 else:
     p = neat.Population(config)
@@ -79,7 +72,7 @@ else:
 p.add_reporter(neat.StdOutReporter(True))
 stats = neat.StatisticsReporter()
 p.add_reporter(stats)
-p.add_reporter(neat.Checkpointer(1))
+p.add_reporter(neat.Checkpointer(5))
 
 winner = p.run(eval_genomes)
 

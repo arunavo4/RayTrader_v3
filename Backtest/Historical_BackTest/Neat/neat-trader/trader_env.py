@@ -9,7 +9,7 @@ import logging
 
 # Create and configure logger
 logging.basicConfig(filename="stock.log",
-                    format='%(asctime)s %(message)s',
+                    format='%(message)s',
                     filemode='w')
 
 # Creating an object
