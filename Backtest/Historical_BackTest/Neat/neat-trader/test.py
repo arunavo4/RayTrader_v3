@@ -8,6 +8,13 @@ file_name = "G:\\AI Trading\\Code\\RayTrader_v3\\HistoricalData\\Min_data\\ADANI
 data = trader_data.csv_to_df(file_name)
 train_data, test_data = trader_data.split_data(data)
 
+
+size_data = len(train_data) - 1
+print(size_data)
+
+print(len(train_data[40:]))
+
+
 print(train_data[40:41])
 signals = trader_data.get_signals(data)
 for s in signals.values():

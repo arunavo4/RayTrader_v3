@@ -4,22 +4,27 @@ import numpy as np
 import pandas as pd
 
 # logging
-# importing module
+# setup logging
 import logging
 
-# Create and configure logger
-logging.basicConfig(filename="stock.log",
-                    format='%(message)s',
-                    filemode='w')
+formatter = logging.Formatter('%(message)s')
 
-# Creating an object
-logger = logging.getLogger()
+def setup_logger(name, log_file, level=logging.INFO):
+    """Function setup as many loggers as you want"""
 
-# Setting the threshold of logger to DEBUG
-logger.setLevel(logging.DEBUG)
+    handler = logging.FileHandler(log_file)
+    handler.setFormatter(formatter)
 
-# Test messages
-logger.info("Logging!")
+    logger = logging.getLogger(name)
+    logger.setLevel(level)
+    logger.addHandler(handler)
+
+    return logger
+
+
+logger = setup_logger('env_logger', 'env.log')
+logger.info('Env Logger!')
+
 
 
 # Class Definition for Trader
