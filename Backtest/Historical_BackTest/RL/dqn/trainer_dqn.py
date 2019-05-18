@@ -33,7 +33,7 @@ def setup_logger(name, log_file, level=logging.INFO):
 logger = setup_logger('trainer_logger', 'training.log')
 logger.info('Training Logger!')
 
-file_name = "G:\\AI Trading\\Code\\RayTrader_v3\\HistoricalData\\Min_data\\ADANIPORTS-EQ.csv"
+file_name = "/home/ubuntu/RL/ADANIPORTS-EQ.csv"
 data = trader_data.csv_to_df(file_name)
 train_data, test_data = trader_data.split_data(data)
 signals = trader_data.get_signals(data)

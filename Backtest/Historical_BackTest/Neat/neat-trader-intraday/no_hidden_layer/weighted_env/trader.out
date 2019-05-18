@@ -1,0 +1,102 @@
+nohup: ignoring input
+
+ ****** Running generation 0 ****** 
+
+Genome_id # :1  Fitness :5560.48 Max Fitness :30484.89 Final Amt :1998.62 Days : 235 Avg Daily Profit :0.018 %
+Genome_id # :2  Fitness :5654.73 Max Fitness :30578.42 Final Amt :2000.19 Days : 235 Avg Daily Profit :0.018 %
+Genome_id # :3  Fitness :-11418.5 Max Fitness :19248.79 Final Amt :1747.34 Days : 64 Avg Daily Profit :-0.195 %
+Genome_id # :4  Fitness :0.0 Max Fitness :0 Final Amt :2000.0 Days : 235 Avg Daily Profit :0.0 %
+Genome_id # :5  Fitness :0.0 Max Fitness :0 Final Amt :2000.0 Days : 235 Avg Daily Profit :0.0 %
+Genome_id # :6  Fitness :-11224.5 Max Fitness :1222.74 Final Amt :1797.9 Days : 25 Avg Daily Profit :-0.407 %
+Genome_id # :7  Fitness :-10883.47 Max Fitness :8997.72 Final Amt :1782.17 Days : 67 Avg Daily Profit :-0.158 %
+Genome_id # :8  Fitness :-11373.01 Max Fitness :3661.17 Final Amt :1781.79 Days : 32 Avg Daily Profit :-0.347 %
+Genome_id # :9  Fitness :25827.36 Max Fitness :53916.16 Final Amt :2072.8 Days : 235 Avg Daily Profit :0.033 %
+Genome_id # :10  Fitness :9372.1 Max Fitness :38467.55 Final Amt :2028.94 Days : 235 Avg Daily Profit :0.03 %
+Genome_id # :11  Fitness :22692.66 Max Fitness :47307.57 Final Amt :1934.02 Days : 235 Avg Daily Profit :0.004 %
+Genome_id # :12  Fitness :-10973.42 Max Fitness :1652.32 Final Amt :1797.24 Days : 25 Avg Daily Profit :-0.411 %
+Genome_id # :13  Fitness :-10626.48 Max Fitness :11291.7 Final Amt :1758.33 Days : 128 Avg Daily Profit :-0.089 %
+Genome_id # :14  Fitness :19545.6 Max Fitness :47253.53 Final Amt :2070.23 Days : 235 Avg Daily Profit :0.032 %
+Genome_id # :15  Fitness :5560.48 Max Fitness :30484.89 Final Amt :1998.62 Days : 235 Avg Daily Profit :0.018 %
+Genome_id # :16  Fitness :-11321.47 Max Fitness :1 Final Amt :1840.98 Days : 14 Avg Daily Profit :-0.58 %
+Genome_id # :17  Fitness :-3639.7 Max Fitness :25471.46 Final Amt :1897.98 Days : 235 Avg Daily Profit :0.001 %
+Genome_id # :18  Fitness :-12959.74 Max Fitness :1196.28 Final Amt :1803.13 Days : 25 Avg Daily Profit :-0.398 %
+Genome_id # :19  Fitness :-10960.75 Max Fitness :1963.2 Final Amt :1797.23 Days : 27 Avg Daily Profit :-0.379 %
+Genome_id # :20  Fitness :110652.43 Max Fitness :110689.9 Final Amt :4459.15 Days : 235 Avg Daily Profit :0.356 %
+Population's average fitness: 4974.24075 stdev: 27075.64407
+Best fitness: 110652.43100 - size: (3, 52) - species 1 - id 20
+Average adjusted fitness: 0.145
+Mean genetic distance 2.179, standard deviation 0.429
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    0    13  110652.4    0.224     0
+     2    0     7  22692.7    0.066     0
+Total extinctions: 0
+Generation time: 18396.891 sec
+Saving checkpoint to neat-checkpoint-0
+
+ ****** Running generation 1 ****** 
+
+Genome_id # :11  Fitness :22692.66 Max Fitness :47307.57 Final Amt :1934.02 Days : 235 Avg Daily Profit :0.004 %
+Genome_id # :10  Fitness :9372.1 Max Fitness :38467.55 Final Amt :2028.94 Days : 235 Avg Daily Profit :0.03 %
+Genome_id # :4  Fitness :0.0 Max Fitness :0 Final Amt :2000.0 Days : 235 Avg Daily Profit :0.0 %
+Genome_id # :21  Fitness :85851.54 Max Fitness :85871.32 Final Amt :3561.02 Days : 235 Avg Daily Profit :0.261 %
+Genome_id # :22  Fitness :0.0 Max Fitness :0 Final Amt :2000.0 Days : 235 Avg Daily Profit :0.0 %
+Genome_id # :23  Fitness :-11747.49 Max Fitness :1516.42 Final Amt :1799.47 Days : 25 Avg Daily Profit :-0.406 %
+Genome_id # :24  Fitness :-11463.6 Max Fitness :1206.83 Final Amt :1794.99 Days : 25 Avg Daily Profit :-0.416 %
+Genome_id # :20  Fitness :110652.43 Max Fitness :110689.9 Final Amt :4459.15 Days : 235 Avg Daily Profit :0.356 %
+Genome_id # :9  Fitness :25827.36 Max Fitness :53916.16 Final Amt :2072.8 Days : 235 Avg Daily Profit :0.033 %
+Genome_id # :14  Fitness :19545.6 Max Fitness :47253.53 Final Amt :2070.23 Days : 235 Avg Daily Profit :0.032 %
+Genome_id # :25  Fitness :11334.06 Max Fitness :35108.99 Final Amt :1998.24 Days : 235 Avg Daily Profit :0.018 %
+Genome_id # :26  Fitness :104859.76 Max Fitness :104891.33 Final Amt :4273.08 Days : 235 Avg Daily Profit :0.337 %
+Genome_id # :27  Fitness :41336.98 Max Fitness :58402.26 Final Amt :1953.68 Days : 235 Avg Daily Profit :0.017 %
+Genome_id # :28  Fitness :-10853.56 Max Fitness :181.96 Final Amt :1854.82 Days : 37 Avg Daily Profit :-0.2 %
+Genome_id # :29  Fitness :-11175.5 Max Fitness :6697.73 Final Amt :1829.5 Days : 33 Avg Daily Profit :-0.254 %
+Genome_id # :30  Fitness :66782.73 Max Fitness :69433.32 Final Amt :3230.85 Days : 235 Avg Daily Profit :0.225 %
+Genome_id # :31  Fitness :5560.48 Max Fitness :30484.89 Final Amt :1998.62 Days : 235 Avg Daily Profit :0.018 %
+Genome_id # :32  Fitness :5715.25 Max Fitness :31545.52 Final Amt :1974.34 Days : 235 Avg Daily Profit :0.012 %
+Genome_id # :33  Fitness :37519.29 Max Fitness :56225.15 Final Amt :2040.03 Days : 235 Avg Daily Profit :0.026 %
+Genome_id # :34  Fitness :54495.43 Max Fitness :75253.59 Final Amt :2272.97 Days : 235 Avg Daily Profit :0.072 %
+Population's average fitness: 27815.27565 stdev: 37442.21013
+Best fitness: 110652.43100 - size: (3, 52) - species 1 - id 20
+Average adjusted fitness: 0.296
+Mean genetic distance 1.926, standard deviation 0.541
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    1    14  110652.4    0.386     1
+     2    1     6  85851.5    0.207     0
+Total extinctions: 0
+Generation time: 30026.848 sec (24211.869 average)
+Saving checkpoint to neat-checkpoint-1
+
+ ****** Running generation 2 ****** 
+
+Genome_id # :21  Fitness :85851.54 Max Fitness :85871.32 Final Amt :3561.02 Days : 235 Avg Daily Profit :0.261 %
+Genome_id # :11  Fitness :22692.66 Max Fitness :47307.57 Final Amt :1934.02 Days : 235 Avg Daily Profit :0.004 %
+Genome_id # :10  Fitness :9372.1 Max Fitness :38467.55 Final Amt :2028.94 Days : 235 Avg Daily Profit :0.03 %
+Genome_id # :35  Fitness :-11835.11 Max Fitness :840.73 Final Amt :1789.01 Days : 25 Avg Daily Profit :-0.429 %
+Genome_id # :36  Fitness :3644.73 Max Fitness :29385.22 Final Amt :1904.54 Days : 235 Avg Daily Profit :0.009 %
+Genome_id # :37  Fitness :-12693.51 Max Fitness :10.14 Final Amt :1778.01 Days : 14 Avg Daily Profit :-0.824 %
+Genome_id # :20  Fitness :110652.43 Max Fitness :110689.9 Final Amt :4459.15 Days : 235 Avg Daily Profit :0.356 %
+Genome_id # :26  Fitness :104859.76 Max Fitness :104891.33 Final Amt :4273.08 Days : 235 Avg Daily Profit :0.337 %
+Genome_id # :30  Fitness :66782.73 Max Fitness :69433.32 Final Amt :3230.85 Days : 235 Avg Daily Profit :0.225 %
+Genome_id # :38  Fitness :-10960.24 Max Fitness :2165.98 Final Amt :1792.72 Days : 27 Avg Daily Profit :-0.388 %
+Genome_id # :39  Fitness :40267.73 Max Fitness :58924.29 Final Amt :2720.76 Days : 235 Avg Daily Profit :0.15 %
+Genome_id # :40  Fitness :99634.5 Max Fitness :99644.06 Final Amt :4062.58 Days : 235 Avg Daily Profit :0.316 %
+Genome_id # :41  Fitness :48397.77 Max Fitness :70098.55 Final Amt :2165.54 Days : 235 Avg Daily Profit :0.051 %
+Genome_id # :42  Fitness :-13917.99 Max Fitness :1685.43 Final Amt :1786.14 Days : 25 Avg Daily Profit :-0.438 %
+Genome_id # :43  Fitness :32098.96 Max Fitness :53227.1 Final Amt :2074.61 Days : 235 Avg Daily Profit :0.033 %
+Genome_id # :44  Fitness :9957.85 Max Fitness :31939.88 Final Amt :2023.35 Days : 235 Avg Daily Profit :0.03 %
+Genome_id # :45  Fitness :51621.68 Max Fitness :73857.85 Final Amt :2212.63 Days : 235 Avg Daily Profit :0.06 %
+Genome_id # :46  Fitness :-11556.44 Max Fitness :1847.95 Final Amt :1794.07 Days : 25 Avg Daily Profit :-0.417 %
+Genome_id # :47  Fitness :125435.89 Max Fitness :125475.28 Final Amt :4943.38 Days : 235 Avg Daily Profit :0.4 %
+Genome_id # :48  Fitness :90498.36 Max Fitness :90614.33 Final Amt :3839.16 Days : 235 Avg Daily Profit :0.295 %
+Population's average fitness: 42040.26960 stdev: 46204.00832
+Best fitness: 125435.89500 - size: (3, 30) - species 1 - id 47
+Average adjusted fitness: 0.349
+Mean genetic distance 1.712, standard deviation 0.714
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    2    13  125435.9    0.481     0
