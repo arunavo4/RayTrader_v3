@@ -1,0 +1,24 @@
+Reporter!
+
+ ****** Running generation 0 ****** 
+
+Reporter!
+
+ ****** Running generation 0 ****** 
+
+Population's average fitness: 3664.83960 stdev: 17387.65264
+Best fitness: 49458.77200 - size: (3, 30) - species 2 - id 19
+Average adjusted fitness: 0.291
+Mean genetic distance 2.378, standard deviation 0.493
+Population of 20 members in 4 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    0     5  26170.9    0.223     0
+     2    0    12  49458.8    0.359     0
+     3    0     2       --       --     0
+     4    0     1       --       --     0
+Total extinctions: 0
+Generation time: 1837.672 sec
+
+ ****** Running generation 1 ****** 
+
