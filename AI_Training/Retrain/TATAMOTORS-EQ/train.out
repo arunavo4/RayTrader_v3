@@ -1,0 +1,1132 @@
+nohup: ignoring input
+
+ ****** Running generation 0 ****** 
+
+Population's average fitness: 102514.10940 stdev: 69683.30293
+Best fitness: 265631.28600 - size: (8, 37) - species 1 - id 1072
+Average adjusted fitness: 0.507
+Mean genetic distance 2.142, standard deviation 0.983
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    0     8  265631.3    0.501     0
+     2    0    12  149766.5    0.514   -81
+Total extinctions: 0
+Generation time: 2482.641 sec
+Saving checkpoint to neat-checkpoint-0
+
+ ****** Running generation 1 ****** 
+
+Population's average fitness: 34600.31155 stdev: 118179.98824
+Best fitness: 265631.28600 - size: (8, 37) - species 1 - id 1072
+Average adjusted fitness: 0.417
+Mean genetic distance 2.166, standard deviation 0.995
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    1     9  265631.3    0.422     1
+     2    1    11  149766.5    0.413   -80
+Total extinctions: 0
+Generation time: 2533.490 sec (2508.065 average)
+Saving checkpoint to neat-checkpoint-1
+
+ ****** Running generation 2 ****** 
+
+Population's average fitness: 39008.98355 stdev: 127231.92056
+Best fitness: 265631.28600 - size: (8, 37) - species 1 - id 1072
+Average adjusted fitness: 0.461
+Mean genetic distance 2.187, standard deviation 0.977
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    2    10  265631.3    0.446     2
+     2    2    10  156696.7    0.476   -79
+Total extinctions: 0
+Generation time: 2279.179 sec (2431.770 average)
+Saving checkpoint to neat-checkpoint-2
+
+ ****** Running generation 3 ****** 
+
+Population's average fitness: 71729.18410 stdev: 115485.78680
+Best fitness: 265631.28600 - size: (8, 37) - species 1 - id 1072
+Average adjusted fitness: 0.520
+Mean genetic distance 2.190, standard deviation 1.005
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    3    11  265631.3    0.609     3
+     2    3     9  156696.7    0.430   -78
+Total extinctions: 0
+Generation time: 2623.637 sec (2479.737 average)
+Saving checkpoint to neat-checkpoint-3
+
+ ****** Running generation 4 ****** 
+
+Population's average fitness: 38578.47485 stdev: 138511.77495
+Best fitness: 311491.82300 - size: (7, 26) - species 2 - id 46
+Average adjusted fitness: 0.390
+Mean genetic distance 2.184, standard deviation 0.976
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    4    10  265631.3    0.388     4
+     2    4    10  311491.8    0.392     0
+Total extinctions: 0
+Generation time: 2436.272 sec (2471.044 average)
+Saving checkpoint to neat-checkpoint-4
+
+ ****** Running generation 5 ****** 
+
+Population's average fitness: 55412.33465 stdev: 135888.41941
+Best fitness: 311491.82300 - size: (7, 26) - species 2 - id 46
+Average adjusted fitness: 0.433
+Mean genetic distance 2.149, standard deviation 1.093
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    5     9  265631.3    0.429     5
+     2    5    11  311491.8    0.438     1
+Total extinctions: 0
+Generation time: 2470.621 sec (2470.973 average)
+Saving checkpoint to neat-checkpoint-5
+
+ ****** Running generation 6 ****** 
+
+Population's average fitness: 77521.03980 stdev: 134227.05636
+Best fitness: 311491.82300 - size: (7, 26) - species 2 - id 46
+Average adjusted fitness: 0.476
+Mean genetic distance 2.169, standard deviation 0.994
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    6    10  265631.3    0.444     6
+     2    6    10  311491.8    0.508     2
+Total extinctions: 0
+Generation time: 2488.105 sec (2473.421 average)
+Saving checkpoint to neat-checkpoint-6
+
+ ****** Running generation 7 ****** 
+
+Population's average fitness: 52096.03490 stdev: 138621.30780
+Best fitness: 311491.82300 - size: (7, 26) - species 2 - id 46
+Average adjusted fitness: 0.445
+Mean genetic distance 2.100, standard deviation 1.040
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    7    11  265631.3    0.463     7
+     2    7     9  311491.8    0.427     3
+Total extinctions: 0
+Generation time: 2397.554 sec (2463.937 average)
+Saving checkpoint to neat-checkpoint-7
+
+ ****** Running generation 8 ****** 
+
+Population's average fitness: 92425.57315 stdev: 127681.50480
+Best fitness: 311491.82300 - size: (7, 26) - species 2 - id 46
+Average adjusted fitness: 0.512
+Mean genetic distance 2.157, standard deviation 1.054
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    8    10  265631.3    0.537     8
+     2    8    10  311491.8    0.487     4
+Total extinctions: 0
+Generation time: 2410.232 sec (2457.970 average)
+Saving checkpoint to neat-checkpoint-8
+
+ ****** Running generation 9 ****** 
+
+Population's average fitness: 66134.62670 stdev: 139574.69965
+Best fitness: 311491.82300 - size: (7, 26) - species 2 - id 46
+Average adjusted fitness: 0.444
+Mean genetic distance 2.090, standard deviation 1.084
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    9    11  265631.3    0.458     9
+     2    9     9  311491.8    0.430     5
+Total extinctions: 0
+Generation time: 2475.097 sec (2459.683 average)
+Saving checkpoint to neat-checkpoint-9
+
+ ****** Running generation 10 ****** 
+
+Population's average fitness: 82841.01865 stdev: 123625.52423
+Best fitness: 311491.82300 - size: (7, 26) - species 2 - id 46
+Average adjusted fitness: 0.450
+Mean genetic distance 2.156, standard deviation 1.058
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   10    10  265631.3    0.494    10
+     2   10    10  311491.8    0.406     6
+Total extinctions: 0
+Generation time: 2425.047 sec (2453.923 average)
+Saving checkpoint to neat-checkpoint-10
+
+ ****** Running generation 11 ****** 
+
+Population's average fitness: 127153.95325 stdev: 114142.11970
+Best fitness: 311491.82300 - size: (7, 26) - species 2 - id 46
+Average adjusted fitness: 0.567
+Mean genetic distance 2.128, standard deviation 1.065
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   11    11  265631.3    0.629    11
+     2   11     9  311491.8    0.504     7
+Total extinctions: 0
+Generation time: 2416.017 sec (2442.176 average)
+Saving checkpoint to neat-checkpoint-11
+
+ ****** Running generation 12 ****** 
+
+Population's average fitness: 72436.97835 stdev: 153789.39900
+Best fitness: 311491.82300 - size: (7, 26) - species 2 - id 46
+Average adjusted fitness: 0.480
+Mean genetic distance 2.167, standard deviation 0.994
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   12    10  265631.3    0.521    12
+     2   12    10  311491.8    0.439     8
+Total extinctions: 0
+Generation time: 2459.782 sec (2460.236 average)
+Saving checkpoint to neat-checkpoint-12
+
+ ****** Running generation 13 ****** 
+
+Population's average fitness: 84923.88200 stdev: 145962.60892
+Best fitness: 311491.82300 - size: (7, 26) - species 2 - id 46
+Average adjusted fitness: 0.553
+Mean genetic distance 2.152, standard deviation 1.015
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   13     9  265631.3    0.496    13
+     2   13    11  311491.8    0.610     9
+Total extinctions: 0
+Generation time: 2453.105 sec (2443.183 average)
+Saving checkpoint to neat-checkpoint-13
+
+ ****** Running generation 14 ****** 
+
+Population's average fitness: 74066.17250 stdev: 168049.48896
+Best fitness: 311491.82300 - size: (7, 26) - species 2 - id 46
+Average adjusted fitness: 0.495
+Mean genetic distance 2.227, standard deviation 1.044Env #:0 Genome_id # :941 Fitness :91083.4 Final Amt :4216.91 Days :236 Avg Daily Profit :0.337 %
+Env #:0 Genome_id # :263 Fitness :-42761.78 Final Amt :1717.97 Days :236 Avg Daily Profit :-0.043 %
+Env #:0 Genome_id # :718 Fitness :174686.96 Final Amt :2937.53 Days :236 Avg Daily Profit :0.181 %
+Env #:0 Genome_id # :335 Fitness :61088.49 Final Amt :2786.02 Days :236 Avg Daily Profit :0.166 %
+Env #:0 Genome_id # :871 Fitness :131280.99 Final Amt :7671.4 Days :236 Avg Daily Profit :0.587 %
+Env #:0 Genome_id # :1 Fitness :124881.17 Final Amt :5456.46 Days :236 Avg Daily Profit :0.444 %
+Env #:0 Genome_id # :365 Fitness :152615.18 Final Amt :3927.9 Days :236 Avg Daily Profit :0.312 %
+Env #:0 Genome_id # :10 Fitness :-122547.03 Final Amt :803.74 Days :236 Avg Daily Profit :-0.36 %
+Env #:0 Genome_id # :13 Fitness :94236.28 Final Amt :3658.6 Days :236 Avg Daily Profit :0.285 %
+Env #:0 Genome_id # :14 Fitness :-130061.71 Final Amt :781.53 Days :236 Avg Daily Profit :-0.375 %
+Env #:0 Genome_id # :18 Fitness :126943.28 Final Amt :5095.57 Days :236 Avg Daily Profit :0.416 %
+Env #:0 Genome_id # :19 Fitness :156696.68 Final Amt :6733.41 Days :236 Avg Daily Profit :0.533 %
+Env #:0 Genome_id # :718 Fitness :174686.96 Final Amt :2937.53 Days :236 Avg Daily Profit :0.181 %
+Env #:0 Genome_id # :365 Fitness :152615.18 Final Amt :3927.9 Days :236 Avg Daily Profit :0.312 %
+Env #:0 Genome_id # :19 Fitness :156696.68 Final Amt :6733.41 Days :236 Avg Daily Profit :0.533 %
+Env #:0 Genome_id # :1042 Fitness :149766.54 Final Amt :3715.58 Days :236 Avg Daily Profit :0.285 %
+Env #:0 Genome_id # :34 Fitness :-1368.2 Final Amt :3051.96 Days :236 Avg Daily Profit :0.195 %
+Env #:0 Genome_id # :35 Fitness :-19039.64 Final Amt :1404.46 Days :236 Avg Daily Profit :-0.129 %
+Env #:0 Genome_id # :39 Fitness :-51421.3 Final Amt :1304.23 Days :236 Avg Daily Profit :-0.163 %
+Env #:0 Genome_id # :40 Fitness :141523.18 Final Amt :3364.11 Days :236 Avg Daily Profit :0.24 %
+Env #:0 Genome_id # :44 Fitness :-93224.41 Final Amt :926.95 Days :236 Avg Daily Profit :-0.301 %
+Env #:0 Genome_id # :45 Fitness :-111461.34 Final Amt :879.5 Days :236 Avg Daily Profit :-0.328 %
+Env #:0 Genome_id # :51 Fitness :-8546.61 Final Amt :1539.56 Days :236 Avg Daily Profit :-0.095 %
+Env #:0 Genome_id # :52 Fitness :78630.51 Final Amt :4220.72 Days :236 Avg Daily Profit :0.34 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :42 Fitness :224424.32 Final Amt :4229.06 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :1042 Fitness :149766.54 Final Amt :3715.58 Days :236 Avg Daily Profit :0.285 %
+Env #:0 Genome_id # :64 Fitness :-85393.31 Final Amt :1015.51 Days :236 Avg Daily Profit :-0.268 %
+Env #:0 Genome_id # :67 Fitness :119601.38 Final Amt :3394.9 Days :236 Avg Daily Profit :0.244 %
+Env #:0 Genome_id # :68 Fitness :-83214.09 Final Amt :859.11 Days :236 Avg Daily Profit :-0.33 %
+Env #:0 Genome_id # :72 Fitness :-90515.72 Final Amt :958.81 Days :236 Avg Daily Profit :-0.295 %
+Env #:0 Genome_id # :73 Fitness :-102657.9 Final Amt :852.67 Days :236 Avg Daily Profit :-0.333 %
+Env #:0 Genome_id # :77 Fitness :-27103.08 Final Amt :1331.1 Days :236 Avg Daily Profit :-0.147 %
+Env #:0 Genome_id # :78 Fitness :-110615.9 Final Amt :860.78 Days :236 Avg Daily Profit :-0.333 %
+Env #:0 Genome_id # :718 Fitness :174686.96 Final Amt :2937.53 Days :236 Avg Daily Profit :0.181 %
+Env #:0 Genome_id # :85 Fitness :-99619.07 Final Amt :593.12 Days :236 Avg Daily Profit :-0.493 %
+Env #:0 Genome_id # :93 Fitness :-54851.12 Final Amt :1338.64 Days :236 Avg Daily Profit :-0.16 %
+Env #:0 Genome_id # :94 Fitness :129170.92 Final Amt :6149.91 Days :236 Avg Daily Profit :0.495 %
+Env #:0 Genome_id # :97 Fitness :-47868.57 Final Amt :1339.19 Days :236 Avg Daily Profit :-0.152 %
+Env #:0 Genome_id # :98 Fitness :108895.39 Final Amt :4485.64 Days :236 Avg Daily Profit :0.364 %
+Env #:0 Genome_id # :100 Fitness :154750.33 Final Amt :4427.69 Days :236 Avg Daily Profit :0.363 %
+Env #:0 Genome_id # :101 Fitness :185113.83 Final Amt :3893.1 Days :236 Avg Daily Profit :0.306 %
+Env #:0 Genome_id # :82 Fitness :200042.44 Final Amt :3322.0 Days :236 Avg Daily Profit :0.236 %
+Env #:0 Genome_id # :84 Fitness :159734.71 Final Amt :4541.99 Days :236 Avg Daily Profit :0.368 %
+Env #:0 Genome_id # :101 Fitness :185113.83 Final Amt :3893.1 Days :236 Avg Daily Profit :0.306 %
+Env #:0 Genome_id # :113 Fitness :51282.47 Final Amt :3420.34 Days :236 Avg Daily Profit :0.247 %
+Env #:0 Genome_id # :118 Fitness :221228.38 Final Amt :4067.71 Days :236 Avg Daily Profit :0.324 %
+Env #:0 Genome_id # :119 Fitness :33498.35 Final Amt :2498.94 Days :236 Avg Daily Profit :0.098 %
+Env #:0 Genome_id # :123 Fitness :-43688.98 Final Amt :1069.49 Days :236 Avg Daily Profit :-0.242 %
+Env #:0 Genome_id # :124 Fitness :79804.77 Final Amt :4224.02 Days :236 Avg Daily Profit :0.346 %
+Env #:0 Genome_id # :128 Fitness :92378.71 Final Amt :3988.95 Days :236 Avg Daily Profit :0.321 %
+Env #:0 Genome_id # :129 Fitness :116234.53 Final Amt :4130.93 Days :236 Avg Daily Profit :0.333 %
+Env #:0 Genome_id # :134 Fitness :7724.35 Final Amt :2040.39 Days :236 Avg Daily Profit :0.028 %
+Env #:0 Genome_id # :46 Fitness :311491.82 Final Amt :4054.16 Days :236 Avg Daily Profit :0.322 %
+Env #:0 Genome_id # :139 Fitness :-90296.6 Final Amt :870.31 Days :236 Avg Daily Profit :-0.326 %
+Env #:0 Genome_id # :140 Fitness :116598.05 Final Amt :4220.85 Days :236 Avg Daily Profit :0.337 %
+Env #:0 Genome_id # :142 Fitness :107268.69 Final Amt :3675.63 Days :236 Avg Daily Profit :0.28 %
+Env #:0 Genome_id # :143 Fitness :181794.0 Final Amt :4310.11 Days :236 Avg Daily Profit :0.35 %
+Env #:0 Genome_id # :149 Fitness :78092.22 Final Amt :3307.81 Days :236 Avg Daily Profit :0.233 %
+Env #:0 Genome_id # :150 Fitness :80738.16 Final Amt :3831.07 Days :236 Avg Daily Profit :0.3 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :42 Fitness :224424.32 Final Amt :4229.06 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :162 Fitness :84956.92 Final Amt :4048.58 Days :236 Avg Daily Profit :0.325 %
+Env #:0 Genome_id # :46 Fitness :311491.82 Final Amt :4054.16 Days :236 Avg Daily Profit :0.322 %
+Env #:0 Genome_id # :167 Fitness :-121603.83 Final Amt :842.56 Days :236 Avg Daily Profit :-0.342 %
+Env #:0 Genome_id # :168 Fitness :-119003.73 Final Amt :863.96 Days :236 Avg Daily Profit :-0.332 %
+Env #:0 Genome_id # :172 Fitness :15435.15 Final Amt :2211.13 Days :236 Avg Daily Profit :0.047 %
+Env #:0 Genome_id # :173 Fitness :-127251.84 Final Amt :797.42 Days :236 Avg Daily Profit :-0.368 %
+Env #:0 Genome_id # :174 Fitness :-37991.92 Final Amt :1463.18 Days :236 Avg Daily Profit :-0.109 %
+Env #:0 Genome_id # :175 Fitness :-103117.85 Final Amt :759.84 Days :236 Avg Daily Profit :-0.381 %
+Env #:0 Genome_id # :179 Fitness :112452.97 Final Amt :4800.11 Days :236 Avg Daily Profit :0.392 %
+Env #:0 Genome_id # :180 Fitness :40782.39 Final Amt :4633.3 Days :236 Avg Daily Profit :0.378 %
+Env #:0 Genome_id # :184 Fitness :-137666.74 Final Amt :799.59 Days :236 Avg Daily Profit :-0.361 %
+Env #:0 Genome_id # :185 Fitness :-6710.31 Final Amt :1885.84 Days :236 Avg Daily Profit :-0.024 %
+Env #:0 Genome_id # :188 Fitness :-148205.07 Final Amt :816.0 Days :236 Avg Daily Profit :-0.352 %
+Env #:0 Genome_id # :46 Fitness :311491.82 Final Amt :4054.16 Days :236 Avg Daily Profit :0.322 %
+Env #:0 Genome_id # :193 Fitness :195921.5 Final Amt :4020.47 Days :236 Avg Daily Profit :0.319 %
+Env #:0 Genome_id # :194 Fitness :-117794.8 Final Amt :872.43 Days :236 Avg Daily Profit :-0.334 %
+Env #:0 Genome_id # :200 Fitness :-132819.23 Final Amt :784.3 Days :236 Avg Daily Profit :-0.371 %
+Env #:0 Genome_id # :201 Fitness :-108912.47 Final Amt :834.47 Days :236 Avg Daily Profit :-0.343 %
+Env #:0 Genome_id # :153 Fitness :281581.19 Final Amt :4727.17 Days :236 Avg Daily Profit :0.393 %
+Env #:0 Genome_id # :202 Fitness :374726.28 Final Amt :3456.07 Days :236 Avg Daily Profit :0.261 %
+Env #:0 Genome_id # :209 Fitness :-90342.87 Final Amt :873.79 Days :236 Avg Daily Profit :-0.323 %
+Env #:0 Genome_id # :210 Fitness :-19661.88 Final Amt :1565.38 Days :236 Avg Daily Profit :-0.091 %Env #:0 Genome_id # :929 Fitness :100442.79 Final Amt :3809.31 Days :236 Avg Daily Profit :0.299 %
+Env #:0 Genome_id # :99 Fitness :129175.82 Final Amt :4783.27 Days :236 Avg Daily Profit :0.392 %
+Env #:0 Genome_id # :1042 Fitness :149766.54 Final Amt :3715.58 Days :236 Avg Daily Profit :0.285 %
+Env #:0 Genome_id # :594 Fitness :96689.92 Final Amt :3764.78 Days :236 Avg Daily Profit :0.288 %
+Env #:0 Genome_id # :927 Fitness :107619.42 Final Amt :4427.82 Days :236 Avg Daily Profit :0.359 %
+Env #:0 Genome_id # :829 Fitness :79424.29 Final Amt :3665.04 Days :236 Avg Daily Profit :0.281 %
+Env #:0 Genome_id # :2 Fitness :36036.43 Final Amt :4235.07 Days :236 Avg Daily Profit :0.338 %
+Env #:0 Genome_id # :3 Fitness :104702.84 Final Amt :4096.46 Days :236 Avg Daily Profit :0.328 %
+Env #:0 Genome_id # :8 Fitness :-97483.72 Final Amt :914.27 Days :236 Avg Daily Profit :-0.307 %
+Env #:0 Genome_id # :9 Fitness :-49859.71 Final Amt :1257.42 Days :236 Avg Daily Profit :-0.175 %
+Env #:0 Genome_id # :871 Fitness :131280.99 Final Amt :7671.4 Days :236 Avg Daily Profit :0.587 %
+Env #:0 Genome_id # :15 Fitness :110624.68 Final Amt :3975.11 Days :236 Avg Daily Profit :0.313 %
+Env #:0 Genome_id # :23 Fitness :128416.85 Final Amt :4387.67 Days :236 Avg Daily Profit :0.359 %
+Env #:0 Genome_id # :24 Fitness :-98539.38 Final Amt :883.85 Days :236 Avg Daily Profit :-0.32 %
+Env #:0 Genome_id # :245 Fitness :146179.82 Final Amt :7294.15 Days :236 Avg Daily Profit :0.566 %
+Env #:0 Genome_id # :29 Fitness :103595.69 Final Amt :3788.23 Days :236 Avg Daily Profit :0.292 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :718 Fitness :174686.96 Final Amt :2937.53 Days :236 Avg Daily Profit :0.181 %
+Env #:0 Genome_id # :41 Fitness :99271.46 Final Amt :3760.62 Days :236 Avg Daily Profit :0.288 %
+Env #:0 Genome_id # :42 Fitness :224424.32 Final Amt :4229.06 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :46 Fitness :311491.82 Final Amt :4054.16 Days :236 Avg Daily Profit :0.322 %
+Env #:0 Genome_id # :47 Fitness :-96724.39 Final Amt :877.1 Days :236 Avg Daily Profit :-0.323 %
+Env #:0 Genome_id # :42 Fitness :224424.32 Final Amt :4229.06 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :718 Fitness :174686.96 Final Amt :2937.53 Days :236 Avg Daily Profit :0.181 %
+Env #:0 Genome_id # :55 Fitness :-135627.31 Final Amt :750.01 Days :236 Avg Daily Profit :-0.391 %
+Env #:0 Genome_id # :56 Fitness :13232.16 Final Amt :2206.66 Days :236 Avg Daily Profit :0.047 %
+Env #:0 Genome_id # :58 Fitness :-133560.85 Final Amt :913.89 Days :236 Avg Daily Profit :-0.304 %
+Env #:0 Genome_id # :59 Fitness :156670.33 Final Amt :4573.67 Days :236 Avg Daily Profit :0.379 %
+Env #:0 Genome_id # :65 Fitness :109524.61 Final Amt :4626.48 Days :236 Avg Daily Profit :0.382 %
+Env #:0 Genome_id # :66 Fitness :-140525.96 Final Amt :937.17 Days :236 Avg Daily Profit :-0.297 %
+Env #:0 Genome_id # :718 Fitness :174686.96 Final Amt :2937.53 Days :236 Avg Daily Profit :0.181 %
+Env #:0 Genome_id # :71 Fitness :-27409.54 Final Amt :1582.69 Days :236 Avg Daily Profit :-0.088 %
+Env #:0 Genome_id # :76 Fitness :149620.64 Final Amt :4516.06 Days :236 Avg Daily Profit :0.369 %
+Env #:0 Genome_id # :46 Fitness :311491.82 Final Amt :4054.16 Days :236 Avg Daily Profit :0.322 %
+Env #:0 Genome_id # :83 Fitness :4116.42 Final Amt :927.96 Days :236 Avg Daily Profit :-0.301 %
+Env #:0 Genome_id # :84 Fitness :159734.71 Final Amt :4541.99 Days :236 Avg Daily Profit :0.368 %
+Env #:0 Genome_id # :88 Fitness :93713.63 Final Amt :2264.64 Days :236 Avg Daily Profit :0.073 %
+Env #:0 Genome_id # :89 Fitness :0.0 Final Amt :2000.0 Days :236 Avg Daily Profit :0.0 %
+Env #:0 Genome_id # :90 Fitness :-134815.23 Final Amt :766.12 Days :236 Avg Daily Profit :-0.381 %
+Env #:0 Genome_id # :91 Fitness :65879.22 Final Amt :2694.08 Days :236 Avg Daily Profit :0.15 %
+Env #:0 Genome_id # :95 Fitness :-155866.87 Final Amt :593.72 Days :236 Avg Daily Profit :-0.495 %
+Env #:0 Genome_id # :96 Fitness :-100355.93 Final Amt :874.02 Days :236 Avg Daily Profit :-0.324 %
+Env #:0 Genome_id # :102 Fitness :-110572.26 Final Amt :814.17 Days :236 Avg Daily Profit :-0.358 %
+Env #:0 Genome_id # :103 Fitness :26798.44 Final Amt :2414.6 Days :236 Avg Daily Profit :0.086 %
+Env #:0 Genome_id # :104 Fitness :105835.89 Final Amt :3794.97 Days :236 Avg Daily Profit :0.299 %
+Env #:0 Genome_id # :105 Fitness :141793.95 Final Amt :4184.54 Days :236 Avg Daily Profit :0.334 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :42 Fitness :224424.32 Final Amt :4229.06 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :121 Fitness :-67740.23 Final Amt :980.0 Days :236 Avg Daily Profit :-0.275 %
+Env #:0 Genome_id # :122 Fitness :-106977.11 Final Amt :867.65 Days :236 Avg Daily Profit :-0.331 %
+Env #:0 Genome_id # :118 Fitness :221228.38 Final Amt :4067.71 Days :236 Avg Daily Profit :0.324 %
+Env #:0 Genome_id # :127 Fitness :134409.05 Final Amt :4005.71 Days :236 Avg Daily Profit :0.318 %
+Env #:0 Genome_id # :135 Fitness :30470.04 Final Amt :3727.18 Days :236 Avg Daily Profit :0.287 %
+Env #:0 Genome_id # :136 Fitness :-93518.97 Final Amt :985.28 Days :236 Avg Daily Profit :-0.277 %
+Env #:0 Genome_id # :118 Fitness :221228.38 Final Amt :4067.71 Days :236 Avg Daily Profit :0.324 %
+Env #:0 Genome_id # :141 Fitness :-11546.21 Final Amt :1823.43 Days :236 Avg Daily Profit :-0.036 %
+Env #:0 Genome_id # :146 Fitness :90604.94 Final Amt :4036.69 Days :236 Avg Daily Profit :0.324 %
+Env #:0 Genome_id # :147 Fitness :111305.56 Final Amt :4563.6 Days :236 Avg Daily Profit :0.371 %
+Env #:0 Genome_id # :151 Fitness :15498.64 Final Amt :5010.46 Days :236 Avg Daily Profit :0.403 %
+Env #:0 Genome_id # :152 Fitness :99657.15 Final Amt :5062.48 Days :236 Avg Daily Profit :0.416 %
+Env #:0 Genome_id # :156 Fitness :-99008.22 Final Amt :876.08 Days :236 Avg Daily Profit :-0.324 %
+Env #:0 Genome_id # :157 Fitness :135554.41 Final Amt :4689.96 Days :236 Avg Daily Profit :0.383 %
+Env #:0 Genome_id # :163 Fitness :86520.8 Final Amt :3809.1 Days :236 Avg Daily Profit :0.296 %
+Env #:0 Genome_id # :164 Fitness :18998.12 Final Amt :2209.15 Days :236 Avg Daily Profit :0.046 %
+Env #:0 Genome_id # :165 Fitness :-97400.12 Final Amt :822.06 Days :236 Avg Daily Profit :-0.349 %
+Env #:0 Genome_id # :166 Fitness :-95536.19 Final Amt :862.53 Days :236 Avg Daily Profit :-0.328 %
+Env #:0 Genome_id # :170 Fitness :-145089.92 Final Amt :983.82 Days :236 Avg Daily Profit :-0.277 %
+Env #:0 Genome_id # :171 Fitness :152303.0 Final Amt :4235.97 Days :236 Avg Daily Profit :0.341 %
+Env #:0 Genome_id # :177 Fitness :124383.23 Final Amt :3825.05 Days :236 Avg Daily Profit :0.302 %
+Env #:0 Genome_id # :178 Fitness :113178.95 Final Amt :4064.94 Days :236 Avg Daily Profit :0.325 %
+Env #:0 Genome_id # :118 Fitness :221228.38 Final Amt :4067.71 Days :236 Avg Daily Profit :0.324 %
+Env #:0 Genome_id # :183 Fitness :-65016.83 Final Amt :975.85 Days :236 Avg Daily Profit :-0.276 %
+Env #:0 Genome_id # :153 Fitness :281581.19 Final Amt :4727.17 Days :236 Avg Daily Profit :0.393 %
+Env #:0 Genome_id # :82 Fitness :200042.44 Final Amt :3322.0 Days :236 Avg Daily Profit :0.236 %
+Env #:0 Genome_id # :195 Fitness :-159220.39 Final Amt :836.34 Days :236 Avg Daily Profit :-0.345 %
+Env #:0 Genome_id # :196 Fitness :62184.14 Final Amt :3120.97 Days :236 Avg Daily Profit :0.209 %
+Env #:0 Genome_id # :198 Fitness :116179.23 Final Amt :4231.52 Days :236 Avg Daily Profit :0.345 %
+Env #:0 Genome_id # :199 Fitness :151265.09 Final Amt :4388.9 Days :236 Avg Daily Profit :0.356 %
+Env #:0 Genome_id # :46 Fitness :311491.82 Final Amt :4054.16 Days :236 Avg Daily Profit :0.322 %
+Env #:0 Genome_id # :192 Fitness :306076.58 Final Amt :5375.28 Days :236 Avg Daily Profit :0.446 %
+Env #:0 Genome_id # :207 Fitness :326926.62 Final Amt :4571.2 Days :236 Avg Daily Profit :0.374 %
+Env #:0 Genome_id # :208 Fitness :1776.08 Final Amt :2455.7 Days :236 Avg Daily Profit :0.104 %
+Env #:0 Genome_id # :214 Fitness :31345.96 Final Amt :1348.46 Days :236 Avg Daily Profit :-0.138 %
+Env #:0 Genome_id # :215 Fitness :-132432.9 Final Amt :765.76 Days :236 Avg Daily Profit :-0.381 %Env #:0 Genome_id # :871 Fitness :131280.99 Final Amt :7671.4 Days :236 Avg Daily Profit :0.587 %
+Env #:0 Genome_id # :365 Fitness :152615.18 Final Amt :3927.9 Days :236 Avg Daily Profit :0.312 %
+Env #:0 Genome_id # :245 Fitness :146179.82 Final Amt :7294.15 Days :236 Avg Daily Profit :0.566 %
+Env #:0 Genome_id # :937 Fitness :-67342.31 Final Amt :5372.03 Days :236 Avg Daily Profit :0.439 %
+Env #:0 Genome_id # :1042 Fitness :149766.54 Final Amt :3715.58 Days :236 Avg Daily Profit :0.285 %
+Env #:0 Genome_id # :245 Fitness :146179.82 Final Amt :7294.15 Days :236 Avg Daily Profit :0.566 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :718 Fitness :174686.96 Final Amt :2937.53 Days :236 Avg Daily Profit :0.181 %
+Env #:0 Genome_id # :1042 Fitness :149766.54 Final Amt :3715.58 Days :236 Avg Daily Profit :0.285 %
+Env #:0 Genome_id # :245 Fitness :146179.82 Final Amt :7294.15 Days :236 Avg Daily Profit :0.566 %
+Env #:0 Genome_id # :22 Fitness :-100935.99 Final Amt :831.8 Days :236 Avg Daily Profit :-0.347 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :27 Fitness :69184.31 Final Amt :3830.64 Days :236 Avg Daily Profit :0.296 %
+Env #:0 Genome_id # :28 Fitness :-131527.17 Final Amt :833.01 Days :236 Avg Daily Profit :-0.342 %
+Env #:0 Genome_id # :30 Fitness :-70167.97 Final Amt :1296.33 Days :236 Avg Daily Profit :-0.17 %
+Env #:0 Genome_id # :31 Fitness :137800.99 Final Amt :6572.84 Days :236 Avg Daily Profit :0.523 %
+Env #:0 Genome_id # :37 Fitness :109486.5 Final Amt :4619.1 Days :236 Avg Daily Profit :0.377 %
+Env #:0 Genome_id # :38 Fitness :-106527.29 Final Amt :825.36 Days :236 Avg Daily Profit :-0.348 %
+Env #:0 Genome_id # :245 Fitness :146179.82 Final Amt :7294.15 Days :236 Avg Daily Profit :0.566 %
+Env #:0 Genome_id # :43 Fitness :-86421.4 Final Amt :898.49 Days :236 Avg Daily Profit :-0.312 %
+Env #:0 Genome_id # :48 Fitness :-20765.73 Final Amt :1185.3 Days :236 Avg Daily Profit :-0.198 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :53 Fitness :-94281.19 Final Amt :867.46 Days :236 Avg Daily Profit :-0.327 %
+Env #:0 Genome_id # :54 Fitness :-84333.23 Final Amt :930.64 Days :236 Avg Daily Profit :-0.303 %
+Env #:0 Genome_id # :60 Fitness :-41321.36 Final Amt :1356.11 Days :236 Avg Daily Profit :-0.149 %
+Env #:0 Genome_id # :61 Fitness :-95514.72 Final Amt :855.72 Days :236 Avg Daily Profit :-0.329 %
+Env #:0 Genome_id # :62 Fitness :46840.31 Final Amt :2557.38 Days :236 Avg Daily Profit :0.116 %
+Env #:0 Genome_id # :63 Fitness :20999.69 Final Amt :3771.58 Days :236 Avg Daily Profit :0.292 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :42 Fitness :224424.32 Final Amt :4229.06 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :79 Fitness :137730.89 Final Amt :6249.37 Days :236 Avg Daily Profit :0.504 %
+Env #:0 Genome_id # :80 Fitness :-85116.58 Final Amt :928.15 Days :236 Avg Daily Profit :-0.295 %
+Env #:0 Genome_id # :81 Fitness :97396.48 Final Amt :3985.76 Days :236 Avg Daily Profit :0.316 %
+Env #:0 Genome_id # :82 Fitness :200042.44 Final Amt :3322.0 Days :236 Avg Daily Profit :0.236 %
+Env #:0 Genome_id # :86 Fitness :-25289.2 Final Amt :1176.73 Days :236 Avg Daily Profit :-0.197 %
+Env #:0 Genome_id # :87 Fitness :40449.54 Final Amt :3904.22 Days :236 Avg Daily Profit :0.311 %
+Env #:0 Genome_id # :46 Fitness :311491.82 Final Amt :4054.16 Days :236 Avg Daily Profit :0.322 %
+Env #:0 Genome_id # :82 Fitness :200042.44 Final Amt :3322.0 Days :236 Avg Daily Profit :0.236 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :42 Fitness :224424.32 Final Amt :4229.06 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :106 Fitness :98367.09 Final Amt :3977.87 Days :236 Avg Daily Profit :0.321 %
+Env #:0 Genome_id # :46 Fitness :311491.82 Final Amt :4054.16 Days :236 Avg Daily Profit :0.322 %
+Env #:0 Genome_id # :111 Fitness :124437.76 Final Amt :3846.35 Days :236 Avg Daily Profit :0.302 %
+Env #:0 Genome_id # :112 Fitness :-125014.04 Final Amt :853.89 Days :236 Avg Daily Profit :-0.333 %
+Env #:0 Genome_id # :114 Fitness :-93649.27 Final Amt :867.83 Days :236 Avg Daily Profit :-0.326 %
+Env #:0 Genome_id # :115 Fitness :-130080.62 Final Amt :808.96 Days :236 Avg Daily Profit :-0.354 %
+Env #:0 Genome_id # :46 Fitness :311491.82 Final Amt :4054.16 Days :236 Avg Daily Profit :0.322 %
+Env #:0 Genome_id # :82 Fitness :200042.44 Final Amt :3322.0 Days :236 Avg Daily Profit :0.236 %
+Env #:0 Genome_id # :125 Fitness :35418.28 Final Amt :2685.14 Days :236 Avg Daily Profit :0.136 %
+Env #:0 Genome_id # :126 Fitness :-106976.74 Final Amt :751.04 Days :236 Avg Daily Profit :-0.386 %
+Env #:0 Genome_id # :130 Fitness :88294.97 Final Amt :3934.53 Days :236 Avg Daily Profit :0.315 %
+Env #:0 Genome_id # :131 Fitness :-107473.68 Final Amt :842.65 Days :236 Avg Daily Profit :-0.339 %
+Env #:0 Genome_id # :132 Fitness :102878.84 Final Amt :4245.5 Days :236 Avg Daily Profit :0.341 %
+Env #:0 Genome_id # :133 Fitness :-52269.05 Final Amt :4091.85 Days :236 Avg Daily Profit :0.319 %
+Env #:0 Genome_id # :137 Fitness :-78611.62 Final Amt :1000.61 Days :236 Avg Daily Profit :-0.267 %
+Env #:0 Genome_id # :138 Fitness :7448.8 Final Amt :2151.97 Days :236 Avg Daily Profit :0.038 %
+Env #:0 Genome_id # :144 Fitness :187642.74 Final Amt :4008.94 Days :236 Avg Daily Profit :0.32 %
+Env #:0 Genome_id # :145 Fitness :157455.99 Final Amt :4180.65 Days :236 Avg Daily Profit :0.338 %
+Env #:0 Genome_id # :84 Fitness :159734.71 Final Amt :4541.99 Days :236 Avg Daily Profit :0.368 %
+Env #:0 Genome_id # :148 Fitness :-105748.97 Final Amt :809.68 Days :236 Avg Daily Profit :-0.358 %
+Env #:0 Genome_id # :118 Fitness :221228.38 Final Amt :4067.71 Days :236 Avg Daily Profit :0.324 %
+Env #:0 Genome_id # :155 Fitness :154688.16 Final Amt :3262.42 Days :236 Avg Daily Profit :0.232 %
+Env #:0 Genome_id # :153 Fitness :281581.19 Final Amt :4727.17 Days :236 Avg Daily Profit :0.393 %
+Env #:0 Genome_id # :82 Fitness :200042.44 Final Amt :3322.0 Days :236 Avg Daily Profit :0.236 %
+Env #:0 Genome_id # :118 Fitness :221228.38 Final Amt :4067.71 Days :236 Avg Daily Profit :0.324 %
+Env #:0 Genome_id # :169 Fitness :95497.04 Final Amt :4434.74 Days :236 Avg Daily Profit :0.362 %
+Env #:0 Genome_id # :46 Fitness :311491.82 Final Amt :4054.16 Days :236 Avg Daily Profit :0.322 %
+Env #:0 Genome_id # :153 Fitness :281581.19 Final Amt :4727.17 Days :236 Avg Daily Profit :0.393 %
+Env #:0 Genome_id # :181 Fitness :-195243.32 Final Amt :702.12 Days :236 Avg Daily Profit :-0.428 %
+Env #:0 Genome_id # :182 Fitness :1925.83 Final Amt :2017.74 Days :236 Avg Daily Profit :0.008 %
+Env #:0 Genome_id # :186 Fitness :-93721.53 Final Amt :874.89 Days :236 Avg Daily Profit :-0.321 %
+Env #:0 Genome_id # :187 Fitness :128732.48 Final Amt :4095.71 Days :236 Avg Daily Profit :0.332 %
+Env #:0 Genome_id # :191 Fitness :86832.09 Final Amt :4382.42 Days :236 Avg Daily Profit :0.356 %
+Env #:0 Genome_id # :192 Fitness :306076.58 Final Amt :5375.28 Days :236 Avg Daily Profit :0.446 %
+Env #:0 Genome_id # :118 Fitness :221228.38 Final Amt :4067.71 Days :236 Avg Daily Profit :0.324 %
+Env #:0 Genome_id # :197 Fitness :-133294.19 Final Amt :806.72 Days :236 Avg Daily Profit :-0.357 %
+Env #:0 Genome_id # :205 Fitness :164463.28 Final Amt :4517.84 Days :236 Avg Daily Profit :0.37 %
+Env #:0 Genome_id # :206 Fitness :131041.09 Final Amt :4524.42 Days :236 Avg Daily Profit :0.371 %
+Env #:0 Genome_id # :118 Fitness :221228.38 Final Amt :4067.71 Days :236 Avg Daily Profit :0.324 %
+Env #:0 Genome_id # :211 Fitness :-99943.8 Final Amt :777.5 Days :236 Avg Daily Profit :-0.372 %
+Env #:0 Genome_id # :216 Fitness :127915.72 Final Amt :5199.94 Days :236 Avg Daily Profit :0.432 %
+Env #:0 Genome_id # :202 Fitness :374726.28 Final Amt :3456.07 Days :236 Avg Daily Profit :0.261 %
+Env #:0 Genome_id # :221 Fitness :0.0 Final Amt :2000.0 Days :236 Avg Daily Profit :0.0 %
+Env #:0 Genome_id # :222 Fitness :169308.18 Final Amt :7590.68 Days :236 Avg Daily Profit :0.589 %Env #:0 Genome_id # :242 Fitness :40811.88 Final Amt :3200.48 Days :236 Avg Daily Profit :0.214 %
+Env #:0 Genome_id # :942 Fitness :128052.96 Final Amt :5396.43 Days :236 Avg Daily Profit :0.442 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :785 Fitness :102072.6 Final Amt :4188.07 Days :236 Avg Daily Profit :0.334 %
+Env #:0 Genome_id # :914 Fitness :90694.94 Final Amt :3973.11 Days :236 Avg Daily Profit :0.311 %
+Env #:0 Genome_id # :31 Fitness :113068.97 Final Amt :4729.28 Days :236 Avg Daily Profit :0.393 %
+Env #:0 Genome_id # :4 Fitness :87298.51 Final Amt :4480.52 Days :236 Avg Daily Profit :0.362 %
+Env #:0 Genome_id # :5 Fitness :-90133.65 Final Amt :870.48 Days :236 Avg Daily Profit :-0.326 %
+Env #:0 Genome_id # :6 Fitness :-51603.69 Final Amt :846.53 Days :236 Avg Daily Profit :-0.336 %
+Env #:0 Genome_id # :7 Fitness :-92988.14 Final Amt :873.31 Days :236 Avg Daily Profit :-0.324 %
+Env #:0 Genome_id # :11 Fitness :-81938.02 Final Amt :870.21 Days :236 Avg Daily Profit :-0.327 %
+Env #:0 Genome_id # :12 Fitness :-58694.11 Final Amt :1178.85 Days :236 Avg Daily Profit :-0.207 %
+Env #:0 Genome_id # :16 Fitness :-94319.31 Final Amt :863.35 Days :236 Avg Daily Profit :-0.33 %
+Env #:0 Genome_id # :17 Fitness :-36143.47 Final Amt :1317.52 Days :236 Avg Daily Profit :-0.156 %
+Env #:0 Genome_id # :20 Fitness :-98112.68 Final Amt :880.29 Days :236 Avg Daily Profit :-0.322 %
+Env #:0 Genome_id # :21 Fitness :-1097.93 Final Amt :2033.15 Days :236 Avg Daily Profit :0.015 %
+Env #:0 Genome_id # :25 Fitness :-115394.74 Final Amt :874.2 Days :236 Avg Daily Profit :-0.324 %
+Env #:0 Genome_id # :26 Fitness :-155776.27 Final Amt :1551.43 Days :236 Avg Daily Profit :-0.094 %
+Env #:0 Genome_id # :32 Fitness :-138123.63 Final Amt :924.02 Days :236 Avg Daily Profit :-0.304 %
+Env #:0 Genome_id # :33 Fitness :-109068.56 Final Amt :1008.58 Days :236 Avg Daily Profit :-0.266 %
+Env #:0 Genome_id # :365 Fitness :152615.18 Final Amt :3927.9 Days :236 Avg Daily Profit :0.312 %
+Env #:0 Genome_id # :36 Fitness :68621.63 Final Amt :2468.96 Days :236 Avg Daily Profit :0.114 %
+Env #:0 Genome_id # :19 Fitness :156696.68 Final Amt :6733.41 Days :236 Avg Daily Profit :0.533 %
+Env #:0 Genome_id # :1042 Fitness :149766.54 Final Amt :3715.58 Days :236 Avg Daily Profit :0.285 %
+Env #:0 Genome_id # :49 Fitness :-101898.15 Final Amt :1437.28 Days :236 Avg Daily Profit :-0.122 %
+Env #:0 Genome_id # :50 Fitness :84113.15 Final Amt :4062.09 Days :236 Avg Daily Profit :0.324 %
+Env #:0 Genome_id # :718 Fitness :174686.96 Final Amt :2937.53 Days :236 Avg Daily Profit :0.181 %
+Env #:0 Genome_id # :57 Fitness :-87204.02 Final Amt :841.72 Days :236 Avg Daily Profit :-0.347 %
+Env #:0 Genome_id # :46 Fitness :311491.82 Final Amt :4054.16 Days :236 Avg Daily Profit :0.322 %
+Env #:0 Genome_id # :19 Fitness :156696.68 Final Amt :6733.41 Days :236 Avg Daily Profit :0.533 %
+Env #:0 Genome_id # :69 Fitness :92827.75 Final Amt :4006.68 Days :236 Avg Daily Profit :0.321 %
+Env #:0 Genome_id # :70 Fitness :-54180.7 Final Amt :2251.76 Days :236 Avg Daily Profit :0.073 %
+Env #:0 Genome_id # :74 Fitness :100167.65 Final Amt :4958.07 Days :236 Avg Daily Profit :0.411 %
+Env #:0 Genome_id # :75 Fitness :-137667.33 Final Amt :762.25 Days :236 Avg Daily Profit :-0.386 %
+Env #:0 Genome_id # :19 Fitness :156696.68 Final Amt :6733.41 Days :236 Avg Daily Profit :0.533 %
+Env #:0 Genome_id # :1042 Fitness :149766.54 Final Amt :3715.58 Days :236 Avg Daily Profit :0.285 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :42 Fitness :224424.32 Final Amt :4229.06 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :84 Fitness :159734.71 Final Amt :4541.99 Days :236 Avg Daily Profit :0.368 %
+Env #:0 Genome_id # :92 Fitness :-113533.57 Final Amt :843.42 Days :236 Avg Daily Profit :-0.346 %
+Env #:0 Genome_id # :718 Fitness :174686.96 Final Amt :2937.53 Days :236 Avg Daily Profit :0.181 %
+Env #:0 Genome_id # :99 Fitness :-139845.81 Final Amt :812.13 Days :236 Avg Daily Profit :-0.356 %
+Env #:0 Genome_id # :107 Fitness :-87585.56 Final Amt :881.02 Days :236 Avg Daily Profit :-0.318 %
+Env #:0 Genome_id # :108 Fitness :109494.67 Final Amt :6265.87 Days :236 Avg Daily Profit :0.502 %
+Env #:0 Genome_id # :109 Fitness :12322.03 Final Amt :2498.76 Days :236 Avg Daily Profit :0.116 %
+Env #:0 Genome_id # :110 Fitness :16603.6 Final Amt :2197.43 Days :236 Avg Daily Profit :0.043 %
+Env #:0 Genome_id # :116 Fitness :-127050.71 Final Amt :802.98 Days :236 Avg Daily Profit :-0.361 %
+Env #:0 Genome_id # :117 Fitness :92293.43 Final Amt :3904.94 Days :236 Avg Daily Profit :0.306 %
+Env #:0 Genome_id # :84 Fitness :159734.71 Final Amt :4541.99 Days :236 Avg Daily Profit :0.368 %
+Env #:0 Genome_id # :120 Fitness :138892.12 Final Amt :5116.32 Days :236 Avg Daily Profit :0.416 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :42 Fitness :224424.32 Final Amt :4229.06 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :82 Fitness :200042.44 Final Amt :3322.0 Days :236 Avg Daily Profit :0.236 %
+Env #:0 Genome_id # :84 Fitness :159734.71 Final Amt :4541.99 Days :236 Avg Daily Profit :0.368 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :42 Fitness :224424.32 Final Amt :4229.06 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :46 Fitness :311491.82 Final Amt :4054.16 Days :236 Avg Daily Profit :0.322 %
+Env #:0 Genome_id # :82 Fitness :200042.44 Final Amt :3322.0 Days :236 Avg Daily Profit :0.236 %
+Env #:0 Genome_id # :153 Fitness :281581.19 Final Amt :4727.17 Days :236 Avg Daily Profit :0.393 %
+Env #:0 Genome_id # :154 Fitness :-113817.99 Final Amt :853.37 Days :236 Avg Daily Profit :-0.334 %
+Env #:0 Genome_id # :158 Fitness :-151989.56 Final Amt :510.39 Days :236 Avg Daily Profit :-0.558 %
+Env #:0 Genome_id # :159 Fitness :143364.87 Final Amt :4328.88 Days :236 Avg Daily Profit :0.354 %
+Env #:0 Genome_id # :160 Fitness :131561.72 Final Amt :4949.75 Days :236 Avg Daily Profit :0.405 %
+Env #:0 Genome_id # :161 Fitness :-126763.23 Final Amt :803.67 Days :236 Avg Daily Profit :-0.359 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :42 Fitness :224424.32 Final Amt :4229.06 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :82 Fitness :200042.44 Final Amt :3322.0 Days :236 Avg Daily Profit :0.236 %
+Env #:0 Genome_id # :176 Fitness :146814.51 Final Amt :4783.12 Days :236 Avg Daily Profit :0.394 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :42 Fitness :224424.32 Final Amt :4229.06 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :189 Fitness :89854.14 Final Amt :2169.27 Days :236 Avg Daily Profit :0.054 %
+Env #:0 Genome_id # :190 Fitness :-164341.26 Final Amt :1451.58 Days :236 Avg Daily Profit :-0.121 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :42 Fitness :224424.32 Final Amt :4229.06 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :203 Fitness :50742.82 Final Amt :2666.52 Days :236 Avg Daily Profit :0.144 %
+Env #:0 Genome_id # :204 Fitness :103283.59 Final Amt :4309.66 Days :236 Avg Daily Profit :0.351 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :42 Fitness :224424.32 Final Amt :4229.06 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :219 Fitness :-103503.97 Final Amt :838.06 Days :236 Avg Daily Profit :-0.342 %
+Env #:0 Genome_id # :220 Fitness :405109.96 Final Amt :5719.74 Days :236 Avg Daily Profit :0.472 %
+Env #:0 Genome_id # :118 Fitness :221228.38 Final Amt :4067.71 Days :236 Avg Daily Profit :0.324 %
+Env #:0 Genome_id # :225 Fitness :96886.29 Final Amt :4047.92 Days :236 Avg Daily Profit :0.329 %
+Env #:0 Genome_id # :231 Fitness :100296.15 Final Amt :4110.52 Days :236 Avg Daily Profit :0.334 %
+Env #:0 Genome_id # :232 Fitness :-118025.0 Final Amt :860.22 Days :236 Avg Daily Profit :-0.331 %
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   14     8  265631.3    0.436    14
+     2   14    12  311491.8    0.554    10
+Total extinctions: 0
+Generation time: 2409.991 sec (2440.555 average)
+Saving checkpoint to neat-checkpoint-14
+
+ ****** Running generation 15 ****** 
+
+Population's average fitness: 127290.35150 stdev: 160120.76474
+Best fitness: 374726.28100 - size: (9, 31) - species 2 - id 202
+Average adjusted fitness: 0.496
+Mean genetic distance 2.145, standard deviation 1.062
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   15     9  265631.3    0.411    15
+     2   15    11  374726.3    0.581     0
+Total extinctions: 0
+Generation time: 2462.707 sec (2439.764 average)
+Saving checkpoint to neat-checkpoint-15
+
+ ****** Running generation 16 ****** 
+
+Population's average fitness: 114889.25580 stdev: 179456.15492
+Best fitness: 405109.95600 - size: (10, 31) - species 2 - id 220
+Average adjusted fitness: 0.453
+Mean genetic distance 2.264, standard deviation 0.891
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   16     8  265631.3    0.377    16
+     2   16    12  405110.0    0.528     0
+Total extinctions: 0
+Generation time: 2374.739 sec (2428.427 average)
+Saving checkpoint to neat-checkpoint-16
+
+ ****** Running generation 17 ****** 
+
+Population's average fitness: 119080.60915 stdev: 158046.30745
+Best fitness: 405109.95600 - size: (10, 31) - species 2 - id 220
+Average adjusted fitness: 0.549
+Mean genetic distance 2.329, standard deviation 0.911
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   17     9  265631.3    0.541    17
+     2   17    11  405110.0    0.557     1
+Total extinctions: 0
+Generation time: 2419.047 sec (2430.576 average)
+Saving checkpoint to neat-checkpoint-17
+
+ ****** Running generation 18 ****** 
+
+Population's average fitness: 142946.09585 stdev: 143475.25624
+Best fitness: 405109.95600 - size: (10, 31) - species 2 - id 220
+Average adjusted fitness: 0.502
+Mean genetic distance 2.305, standard deviation 0.924
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   18    10  265631.3    0.479    18
+     2   18    10  405110.0    0.525     2
+Total extinctions: 0
+Generation time: 2400.646 sec (2429.618 average)
+Saving checkpoint to neat-checkpoint-18
+
+ ****** Running generation 19 ****** 
+
+Population's average fitness: 152401.34360 stdev: 126644.62642
+Best fitness: 405109.95600 - size: (10, 31) - species 2 - id 220
+Average adjusted fitness: 0.494
+Mean genetic distance 2.253, standard deviation 0.975
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   19     9  265631.3    0.433    19
+     2   19    11  405110.0    0.554     3
+Total extinctions: 0
+Generation time: 2392.012 sec (2421.309 average)
+Saving checkpoint to neat-checkpoint-19
+
+ ****** Running generation 20 ****** 
+
+Population's average fitness: 125577.82745 stdev: 158605.47419
+Best fitness: 405109.95600 - size: (10, 31) - species 2 - id 220
+Average adjusted fitness: 0.487
+Mean genetic distance 2.206, standard deviation 1.036
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   20    10  293412.7    0.529     0
+     2   20    10  405110.0    0.444     4
+Total extinctions: 0
+Generation time: 2431.952 sec (2422.000 average)
+Saving checkpoint to neat-checkpoint-20
+
+ ****** Running generation 21 ****** 
+
+Population's average fitness: 94553.38050 stdev: 187454.37866
+Best fitness: 405109.95600 - size: (10, 31) - species 2 - id 220
+Average adjusted fitness: 0.437
+Mean genetic distance 2.191, standard deviation 1.054
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   21     9  293412.7    0.420     1
+     2   21    11  405110.0    0.455     5
+Total extinctions: 0
+Generation time: 2423.183 sec (2422.716 average)
+Saving checkpoint to neat-checkpoint-21
+
+ ****** Running generation 22 ****** 
+
+Population's average fitness: 118928.98630 stdev: 179602.64569
+Best fitness: 405109.95600 - size: (10, 31) - species 2 - id 220
+Average adjusted fitness: 0.477
+Mean genetic distance 2.209, standard deviation 0.970
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   22     8  293412.7    0.407     2
+     2   22    12  405110.0    0.547     6
+Total extinctions: 0
+Generation time: 2479.591 sec (2424.697 average)
+Saving checkpoint to neat-checkpoint-22
+
+ ****** Running generation 23 ****** 
+
+Population's average fitness: 144878.98815 stdev: 169934.33995
+Best fitness: 405109.95600 - size: (10, 31) - species 2 - id 220
+Average adjusted fitness: 0.526
+Mean genetic distance 2.151, standard deviation 1.024
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   23     9  293412.7    0.541     3
+     2   23    11  405110.0    0.510     7
+Total extinctions: 0
+Generation time: 2462.720 sec (2425.659 average)
+Saving checkpoint to neat-checkpoint-23
+
+ ****** Running generation 24 ****** 
+
+Population's average fitness: 139962.61425 stdev: 172434.29261
+Best fitness: 405109.95600 - size: (10, 31) - species 2 - id 220
+Average adjusted fitness: 0.546
+Mean genetic distance 2.111, standard deviation 1.075
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   24    10  293412.7    0.515     4
+     2   24    10  405110.0    0.576     8
+Total extinctions: 0
+Generation time: 2467.740 sec (2431.434 average)
+Saving checkpoint to neat-checkpoint-24
+
+ ****** Running generation 25 ****** 
+
+Population's average fitness: 120543.79980 stdev: 173668.18351
+Best fitness: 405109.95600 - size: (10, 31) - species 2 - id 220
+Average adjusted fitness: 0.466
+Mean genetic distance 2.106, standard deviation 1.075
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   25     9  293412.7    0.451     5
+     2   25    11  405110.0    0.481     9
+Total extinctions: 0
+Generation time: 2447.290 sec (2429.892 average)
+Saving checkpoint to neat-checkpoint-25
+
+ ****** Running generation 26 ****** 
+
+Population's average fitness: 101738.13010 stdev: 176970.81421
+Best fitness: 405109.95600 - size: (10, 31) - species 2 - id 220
+Average adjusted fitness: 0.483
+Mean genetic distance 2.095, standard deviation 1.080
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   26    10  293412.7    0.455     6
+     2   26    10  405110.0    0.512    10
+Total extinctions: 0
+Generation time: 2439.758 sec (2436.394 average)
+Saving checkpoint to neat-checkpoint-26
+
+ ****** Running generation 27 ****** 
+
+Population's average fitness: 152821.00050 stdev: 146459.59489
+Best fitness: 405109.95600 - size: (10, 31) - species 2 - id 220
+Average adjusted fitness: 0.509
+Mean genetic distance 2.148, standard deviation 1.061
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   27     9  293412.7    0.444     7
+     2   27    11  405110.0    0.575    11
+Total extinctions: 0
+Generation time: 2462.477 sec (2440.737 average)
+Saving checkpoint to neat-checkpoint-27
+
+ ****** Running generation 28 ****** 
+
+Population's average fitness: 136120.05145 stdev: 164437.55014
+Best fitness: 405109.95600 - size: (10, 31) - species 2 - id 220
+Average adjusted fitness: 0.484
+Mean genetic distance 2.076, standard deviation 1.114
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   28    10  293412.7    0.496     8
+     2   28    10  405110.0    0.472    12
+Env #:0 Genome_id # :212 Fitness :122463.73 Final Amt :4199.15 Days :236 Avg Daily Profit :0.338 %
+Env #:0 Genome_id # :213 Fitness :-128347.05 Final Amt :832.66 Days :236 Avg Daily Profit :-0.344 %
+Env #:0 Genome_id # :207 Fitness :326926.62 Final Amt :4571.2 Days :236 Avg Daily Profit :0.374 %
+Env #:0 Genome_id # :46 Fitness :311491.82 Final Amt :4054.16 Days :236 Avg Daily Profit :0.322 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :42 Fitness :224424.32 Final Amt :4229.06 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :233 Fitness :-231957.11 Final Amt :576.33 Days :236 Avg Daily Profit :-0.503 %
+Env #:0 Genome_id # :234 Fitness :167592.64 Final Amt :3790.42 Days :236 Avg Daily Profit :0.301 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :42 Fitness :224424.32 Final Amt :4229.06 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :245 Fitness :175492.42 Final Amt :6609.37 Days :236 Avg Daily Profit :0.525 %
+Env #:0 Genome_id # :246 Fitness :225428.47 Final Amt :3910.46 Days :236 Avg Daily Profit :0.305 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :42 Fitness :224424.32 Final Amt :4229.06 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :261 Fitness :132041.6 Final Amt :4103.37 Days :236 Avg Daily Profit :0.331 %
+Env #:0 Genome_id # :262 Fitness :94922.4 Final Amt :3648.7 Days :236 Avg Daily Profit :0.279 %
+Env #:0 Genome_id # :118 Fitness :221228.38 Final Amt :4067.71 Days :236 Avg Daily Profit :0.324 %
+Env #:0 Genome_id # :267 Fitness :127000.96 Final Amt :3245.91 Days :236 Avg Daily Profit :0.229 %
+Env #:0 Genome_id # :202 Fitness :374726.28 Final Amt :3456.07 Days :236 Avg Daily Profit :0.261 %
+Env #:0 Genome_id # :207 Fitness :326926.62 Final Amt :4571.2 Days :236 Avg Daily Profit :0.374 %
+Env #:0 Genome_id # :277 Fitness :153280.11 Final Amt :3942.57 Days :236 Avg Daily Profit :0.31 %
+Env #:0 Genome_id # :278 Fitness :-134939.37 Final Amt :857.2 Days :236 Avg Daily Profit :-0.332 %
+Env #:0 Genome_id # :282 Fitness :0.0 Final Amt :2000.0 Days :236 Avg Daily Profit :0.0 %
+Env #:0 Genome_id # :283 Fitness :214467.15 Final Amt :3508.42 Days :236 Avg Daily Profit :0.26 %
+Env #:0 Genome_id # :286 Fitness :0.0 Final Amt :2000.0 Days :236 Avg Daily Profit :0.0 %
+Env #:0 Genome_id # :287 Fitness :-145523.74 Final Amt :771.64 Days :236 Avg Daily Profit :-0.387 %
+Env #:0 Genome_id # :291 Fitness :-144729.38 Final Amt :923.06 Days :236 Avg Daily Profit :-0.303 %
+Env #:0 Genome_id # :292 Fitness :177667.86 Final Amt :2390.76 Days :236 Avg Daily Profit :0.101 %
+Env #:0 Genome_id # :296 Fitness :156617.02 Final Amt :4259.92 Days :236 Avg Daily Profit :0.347 %
+Env #:0 Genome_id # :297 Fitness :9504.79 Final Amt :1603.65 Days :236 Avg Daily Profit :-0.073 %
+Env #:0 Genome_id # :301 Fitness :128328.53 Final Amt :4130.39 Days :236 Avg Daily Profit :0.332 %
+Env #:0 Genome_id # :302 Fitness :117126.51 Final Amt :4207.29 Days :236 Avg Daily Profit :0.337 %
+Env #:0 Genome_id # :284 Fitness :226722.58 Final Amt :4370.93 Days :236 Avg Daily Profit :0.352 %
+Env #:0 Genome_id # :309 Fitness :47668.52 Final Amt :2397.99 Days :236 Avg Daily Profit :0.104 %
+Env #:0 Genome_id # :220 Fitness :405109.96 Final Amt :5719.74 Days :236 Avg Daily Profit :0.472 %
+Env #:0 Genome_id # :202 Fitness :374726.28 Final Amt :3456.07 Days :236 Avg Daily Profit :0.261 %
+Env #:0 Genome_id # :319 Fitness :105412.64 Final Amt :4302.5 Days :236 Avg Daily Profit :0.35 %
+Env #:0 Genome_id # :320 Fitness :60440.55 Final Amt :2625.83 Days :236 Avg Daily Profit :0.136 %
+Env #:0 Genome_id # :324 Fitness :-94884.18 Final Amt :922.9 Days :236 Avg Daily Profit :-0.301 %
+Env #:0 Genome_id # :325 Fitness :-102252.14 Final Amt :766.56 Days :236 Avg Daily Profit :-0.378 %
+Env #:0 Genome_id # :328 Fitness :133494.73 Final Amt :4419.08 Days :236 Avg Daily Profit :0.357 %
+Env #:0 Genome_id # :220 Fitness :405109.96 Final Amt :5719.74 Days :236 Avg Daily Profit :0.472 %
+Env #:0 Genome_id # :268 Fitness :293412.73 Final Amt :5132.44 Days :236 Avg Daily Profit :0.424 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :308 Fitness :373402.23 Final Amt :6170.76 Days :236 Avg Daily Profit :0.501 %
+Env #:0 Genome_id # :344 Fitness :-46181.57 Final Amt :958.78 Days :236 Avg Daily Profit :-0.287 %
+Env #:0 Genome_id # :268 Fitness :293412.73 Final Amt :5132.44 Days :236 Avg Daily Profit :0.424 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :356 Fitness :-185424.74 Final Amt :774.37 Days :236 Avg Daily Profit :-0.376 %
+Env #:0 Genome_id # :220 Fitness :405109.96 Final Amt :5719.74 Days :236 Avg Daily Profit :0.472 %
+Env #:0 Genome_id # :363 Fitness :-25236.25 Final Amt :1636.99 Days :236 Avg Daily Profit :-0.08 %
+Env #:0 Genome_id # :364 Fitness :-112986.49 Final Amt :881.0 Days :236 Avg Daily Profit :-0.32 %
+Env #:0 Genome_id # :366 Fitness :138429.17 Final Amt :4629.55 Days :236 Avg Daily Profit :0.376 %
+Env #:0 Genome_id # :367 Fitness :-101738.3 Final Amt :884.18 Days :236 Avg Daily Profit :-0.317 %
+Env #:0 Genome_id # :370 Fitness :-92631.24 Final Amt :778.32 Days :236 Avg Daily Profit :-0.376 %
+Env #:0 Genome_id # :371 Fitness :126829.13 Final Amt :4406.17 Days :236 Avg Daily Profit :0.363 %
+Env #:0 Genome_id # :377 Fitness :221104.36 Final Amt :4911.32 Days :236 Avg Daily Profit :0.406 %
+Env #:0 Genome_id # :378 Fitness :104169.12 Final Amt :4194.01 Days :236 Avg Daily Profit :0.338 %
+Env #:0 Genome_id # :382 Fitness :242413.91 Final Amt :4297.65 Days :236 Avg Daily Profit :0.351 %
+Env #:0 Genome_id # :383 Fitness :-12347.29 Final Amt :1513.42 Days :236 Avg Daily Profit :-0.096 %
+Env #:0 Genome_id # :202 Fitness :374726.28 Final Amt :3456.07 Days :236 Avg Daily Profit :0.261 %
+Env #:0 Genome_id # :308 Fitness :373402.23 Final Amt :6170.76 Days :236 Avg Daily Profit :0.501 %
+Env #:0 Genome_id # :268 Fitness :293412.73 Final Amt :5132.44 Days :236 Avg Daily Profit :0.424 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :308 Fitness :373402.23 Final Amt :6170.76 Days :236 Avg Daily Profit :0.501 %
+Env #:0 Genome_id # :400 Fitness :-111841.48 Final Amt :867.22 Days :236 Avg Daily Profit :-0.328 %
+
+Env #:0 Genome_id # :237 Fitness :92295.28 Final Amt :4029.87 Days :236 Avg Daily Profit :0.32 %
+Env #:0 Genome_id # :238 Fitness :160565.46 Final Amt :4972.8 Days :236 Avg Daily Profit :0.411 %
+Env #:0 Genome_id # :242 Fitness :171301.59 Final Amt :4453.97 Days :236 Avg Daily Profit :0.365 %
+Env #:0 Genome_id # :243 Fitness :9584.46 Final Amt :2156.34 Days :236 Avg Daily Profit :0.033 %
+Env #:0 Genome_id # :244 Fitness :175225.26 Final Amt :4215.45 Days :236 Avg Daily Profit :0.345 %
+Env #:0 Genome_id # :220 Fitness :405109.96 Final Amt :5719.74 Days :236 Avg Daily Profit :0.472 %
+Env #:0 Genome_id # :249 Fitness :57334.74 Final Amt :2858.95 Days :236 Avg Daily Profit :0.167 %
+Env #:0 Genome_id # :250 Fitness :-123837.39 Final Amt :813.9 Days :236 Avg Daily Profit :-0.353 %
+Env #:0 Genome_id # :254 Fitness :110990.43 Final Amt :3803.38 Days :236 Avg Daily Profit :0.299 %
+Env #:0 Genome_id # :255 Fitness :157903.91 Final Amt :4345.12 Days :236 Avg Daily Profit :0.353 %
+Env #:0 Genome_id # :207 Fitness :326926.62 Final Amt :4571.2 Days :236 Avg Daily Profit :0.374 %
+Env #:0 Genome_id # :260 Fitness :193177.51 Final Amt :3533.21 Days :236 Avg Daily Profit :0.27 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :42 Fitness :224424.32 Final Amt :4229.06 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :273 Fitness :-76364.57 Final Amt :524.45 Days :236 Avg Daily Profit :-0.544 %
+Env #:0 Genome_id # :274 Fitness :161702.49 Final Amt :3922.84 Days :236 Avg Daily Profit :0.31 %
+Env #:0 Genome_id # :268 Fitness :293412.73 Final Amt :5132.44 Days :236 Avg Daily Profit :0.424 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :207 Fitness :326926.62 Final Amt :4571.2 Days :236 Avg Daily Profit :0.374 %
+Env #:0 Genome_id # :288 Fitness :-146898.72 Final Amt :853.17 Days :236 Avg Daily Profit :-0.336 %
+Env #:0 Genome_id # :293 Fitness :172166.91 Final Amt :4065.6 Days :236 Avg Daily Profit :0.325 %
+Env #:0 Genome_id # :294 Fitness :-111217.29 Final Amt :866.14 Days :236 Avg Daily Profit :-0.332 %
+Env #:0 Genome_id # :298 Fitness :-149186.28 Final Amt :817.68 Days :236 Avg Daily Profit :-0.355 %
+Env #:0 Genome_id # :299 Fitness :-131029.91 Final Amt :798.46 Days :236 Avg Daily Profit :-0.362 %
+Env #:0 Genome_id # :303 Fitness :-16494.59 Final Amt :2139.76 Days :236 Avg Daily Profit :0.038 %
+Env #:0 Genome_id # :304 Fitness :99961.34 Final Amt :3423.95 Days :236 Avg Daily Profit :0.241 %
+Env #:0 Genome_id # :305 Fitness :105591.38 Final Amt :4033.5 Days :236 Avg Daily Profit :0.321 %
+Env #:0 Genome_id # :306 Fitness :-107842.04 Final Amt :898.03 Days :236 Avg Daily Profit :-0.318 %
+Env #:0 Genome_id # :310 Fitness :245492.58 Final Amt :4872.42 Days :236 Avg Daily Profit :0.399 %
+Env #:0 Genome_id # :311 Fitness :154513.77 Final Amt :4360.26 Days :236 Avg Daily Profit :0.354 %
+Env #:0 Genome_id # :315 Fitness :308691.69 Final Amt :5244.95 Days :236 Avg Daily Profit :0.431 %
+Env #:0 Genome_id # :316 Fitness :-51071.84 Final Amt :1310.77 Days :236 Avg Daily Profit :-0.159 %
+Env #:0 Genome_id # :268 Fitness :293412.73 Final Amt :5132.44 Days :236 Avg Daily Profit :0.424 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :329 Fitness :149080.82 Final Amt :3172.73 Days :236 Avg Daily Profit :0.217 %
+Env #:0 Genome_id # :330 Fitness :-156204.48 Final Amt :868.84 Days :236 Avg Daily Profit :-0.327 %
+Env #:0 Genome_id # :335 Fitness :-2640.64 Final Amt :1824.01 Days :236 Avg Daily Profit :-0.03 %
+Env #:0 Genome_id # :336 Fitness :98930.66 Final Amt :4290.48 Days :236 Avg Daily Profit :0.353 %
+Env #:0 Genome_id # :338 Fitness :-33838.93 Final Amt :1618.3 Days :236 Avg Daily Profit :-0.082 %
+Env #:0 Genome_id # :339 Fitness :229412.16 Final Amt :3503.99 Days :236 Avg Daily Profit :0.256 %
+Env #:0 Genome_id # :342 Fitness :137007.48 Final Amt :4346.68 Days :236 Avg Daily Profit :0.356 %
+Env #:0 Genome_id # :343 Fitness :-127823.47 Final Amt :800.29 Days :236 Avg Daily Profit :-0.365 %
+Env #:0 Genome_id # :349 Fitness :108943.6 Final Amt :4065.21 Days :236 Avg Daily Profit :0.322 %
+Env #:0 Genome_id # :350 Fitness :-92320.46 Final Amt :837.43 Days :236 Avg Daily Profit :-0.341 %
+Env #:0 Genome_id # :352 Fitness :-121639.59 Final Amt :807.52 Days :236 Avg Daily Profit :-0.358 %
+Env #:0 Genome_id # :353 Fitness :105577.59 Final Amt :4016.45 Days :236 Avg Daily Profit :0.317 %
+Env #:0 Genome_id # :359 Fitness :-19250.36 Final Amt :1225.44 Days :236 Avg Daily Profit :-0.191 %
+Env #:0 Genome_id # :360 Fitness :140946.5 Final Amt :3878.72 Days :236 Avg Daily Profit :0.303 %
+Env #:0 Genome_id # :361 Fitness :-91040.77 Final Amt :1063.29 Days :236 Avg Daily Profit :-0.248 %
+Env #:0 Genome_id # :362 Fitness :-12038.24 Final Amt :1831.79 Days :236 Avg Daily Profit :-0.027 %
+Env #:0 Genome_id # :368 Fitness :59529.41 Final Amt :3650.38 Days :236 Avg Daily Profit :0.28 %
+Env #:0 Genome_id # :369 Fitness :149313.7 Final Amt :4464.42 Days :236 Avg Daily Profit :0.367 %
+Env #:0 Genome_id # :373 Fitness :129857.36 Final Amt :4152.41 Days :236 Avg Daily Profit :0.334 %
+Env #:0 Genome_id # :374 Fitness :38736.97 Final Amt :2421.93 Days :236 Avg Daily Profit :0.11 %
+Env #:0 Genome_id # :375 Fitness :-108875.39 Final Amt :873.35 Days :236 Avg Daily Profit :-0.328 %
+Env #:0 Genome_id # :376 Fitness :147806.25 Final Amt :5819.36 Days :236 Avg Daily Profit :0.473 %
+Env #:0 Genome_id # :380 Fitness :-94363.87 Final Amt :868.22 Days :236 Avg Daily Profit :-0.328 %
+Env #:0 Genome_id # :381 Fitness :227621.94 Final Amt :4821.98 Days :236 Avg Daily Profit :0.394 %
+Env #:0 Genome_id # :385 Fitness :104936.45 Final Amt :4219.11 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :386 Fitness :91917.63 Final Amt :3601.91 Days :236 Avg Daily Profit :0.274 %
+Env #:0 Genome_id # :391 Fitness :100903.81 Final Amt :3956.89 Days :236 Avg Daily Profit :0.311 %
+Env #:0 Genome_id # :392 Fitness :-108610.33 Final Amt :751.24 Days :236 Avg Daily Profit :-0.388 %
+Env #:0 Genome_id # :396 Fitness :80269.77 Final Amt :3420.54 Days :236 Avg Daily Profit :0.249 %
+Env #:0 Genome_id # :397 Fitness :-126904.92 Final Amt :790.21 Days :236 Avg Daily Profit :-0.368 %
+Env #:0 Genome_id # :401 Fitness :367374.28 Final Amt :5516.26 Days :236 Avg Daily Profit :0.455 %
+Env #:0 Genome_id # :402 Fitness :-93295.37 Final Amt :1303.72 Days :236 Avg Daily Profit :-0.163 %
+
+Env #:0 Genome_id # :226 Fitness :-4644.22 Final Amt :1887.65 Days :236 Avg Daily Profit :-0.022 %
+Env #:0 Genome_id # :227 Fitness :-83135.47 Final Amt :1030.91 Days :236 Avg Daily Profit :-0.256 %
+Env #:0 Genome_id # :220 Fitness :405109.96 Final Amt :5719.74 Days :236 Avg Daily Profit :0.472 %
+Env #:0 Genome_id # :202 Fitness :374726.28 Final Amt :3456.07 Days :236 Avg Daily Profit :0.261 %
+Env #:0 Genome_id # :235 Fitness :-32819.5 Final Amt :1470.58 Days :236 Avg Daily Profit :-0.116 %
+Env #:0 Genome_id # :236 Fitness :116908.66 Final Amt :4097.24 Days :236 Avg Daily Profit :0.328 %
+Env #:0 Genome_id # :240 Fitness :-111080.25 Final Amt :644.88 Days :236 Avg Daily Profit :-0.455 %
+Env #:0 Genome_id # :241 Fitness :107360.17 Final Amt :3950.36 Days :236 Avg Daily Profit :0.313 %
+Env #:0 Genome_id # :202 Fitness :374726.28 Final Amt :3456.07 Days :236 Avg Daily Profit :0.261 %
+Env #:0 Genome_id # :207 Fitness :326926.62 Final Amt :4571.2 Days :236 Avg Daily Profit :0.374 %
+Env #:0 Genome_id # :251 Fitness :148811.13 Final Amt :6342.4 Days :236 Avg Daily Profit :0.508 %
+Env #:0 Genome_id # :252 Fitness :67922.12 Final Amt :2350.06 Days :236 Avg Daily Profit :0.092 %
+Env #:0 Genome_id # :256 Fitness :-93878.34 Final Amt :856.99 Days :236 Avg Daily Profit :-0.33 %
+Env #:0 Genome_id # :257 Fitness :124843.3 Final Amt :4657.52 Days :236 Avg Daily Profit :0.381 %
+Env #:0 Genome_id # :220 Fitness :405109.96 Final Amt :5719.74 Days :236 Avg Daily Profit :0.472 %
+Env #:0 Genome_id # :202 Fitness :374726.28 Final Amt :3456.07 Days :236 Avg Daily Profit :0.261 %
+Env #:0 Genome_id # :265 Fitness :98311.5 Final Amt :4018.45 Days :236 Avg Daily Profit :0.319 %
+Env #:0 Genome_id # :266 Fitness :192069.41 Final Amt :2571.86 Days :236 Avg Daily Profit :0.131 %
+Env #:0 Genome_id # :268 Fitness :293412.73 Final Amt :5132.44 Days :236 Avg Daily Profit :0.424 %
+Env #:0 Genome_id # :269 Fitness :81877.43 Final Amt :3413.57 Days :236 Avg Daily Profit :0.247 %
+Env #:0 Genome_id # :275 Fitness :-67373.42 Final Amt :872.76 Days :236 Avg Daily Profit :-0.322 %
+Env #:0 Genome_id # :276 Fitness :-64788.59 Final Amt :1370.98 Days :236 Avg Daily Profit :-0.142 %
+Env #:0 Genome_id # :42 Fitness :224424.32 Final Amt :4229.06 Days :236 Avg Daily Profit :0.339 %
+Env #:0 Genome_id # :281 Fitness :-96399.4 Final Amt :740.91 Days :236 Avg Daily Profit :-0.394 %
+Env #:0 Genome_id # :220 Fitness :405109.96 Final Amt :5719.74 Days :236 Avg Daily Profit :0.472 %
+Env #:0 Genome_id # :202 Fitness :374726.28 Final Amt :3456.07 Days :236 Avg Daily Profit :0.261 %
+Env #:0 Genome_id # :268 Fitness :293412.73 Final Amt :5132.44 Days :236 Avg Daily Profit :0.424 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :202 Fitness :374726.28 Final Amt :3456.07 Days :236 Avg Daily Profit :0.261 %
+Env #:0 Genome_id # :207 Fitness :326926.62 Final Amt :4571.2 Days :236 Avg Daily Profit :0.374 %
+Env #:0 Genome_id # :268 Fitness :293412.73 Final Amt :5132.44 Days :236 Avg Daily Profit :0.424 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :308 Fitness :373402.23 Final Amt :6170.76 Days :236 Avg Daily Profit :0.501 %
+Env #:0 Genome_id # :314 Fitness :257184.36 Final Amt :3407.22 Days :236 Avg Daily Profit :0.257 %
+Env #:0 Genome_id # :321 Fitness :107083.84 Final Amt :4119.11 Days :236 Avg Daily Profit :0.326 %
+Env #:0 Genome_id # :322 Fitness :-84875.1 Final Amt :868.53 Days :236 Avg Daily Profit :-0.327 %
+Env #:0 Genome_id # :326 Fitness :64154.19 Final Amt :2937.75 Days :236 Avg Daily Profit :0.19 %
+Env #:0 Genome_id # :327 Fitness :108500.22 Final Amt :3916.37 Days :236 Avg Daily Profit :0.306 %
+Env #:0 Genome_id # :202 Fitness :374726.28 Final Amt :3456.07 Days :236 Avg Daily Profit :0.261 %
+Env #:0 Genome_id # :308 Fitness :373402.23 Final Amt :6170.76 Days :236 Avg Daily Profit :0.501 %
+Env #:0 Genome_id # :333 Fitness :-182316.56 Final Amt :1014.54 Days :236 Avg Daily Profit :-0.263 %
+Env #:0 Genome_id # :334 Fitness :297612.38 Final Amt :6019.09 Days :236 Avg Daily Profit :0.495 %
+Env #:0 Genome_id # :340 Fitness :127095.66 Final Amt :3885.2 Days :236 Avg Daily Profit :0.303 %
+Env #:0 Genome_id # :341 Fitness :-111028.93 Final Amt :743.16 Days :236 Avg Daily Profit :-0.391 %
+Env #:0 Genome_id # :220 Fitness :405109.96 Final Amt :5719.74 Days :236 Avg Daily Profit :0.472 %
+Env #:0 Genome_id # :202 Fitness :374726.28 Final Amt :3456.07 Days :236 Avg Daily Profit :0.261 %
+Env #:0 Genome_id # :347 Fitness :-76141.32 Final Amt :872.06 Days :236 Avg Daily Profit :-0.327 %
+Env #:0 Genome_id # :348 Fitness :-115768.05 Final Amt :1460.76 Days :236 Avg Daily Profit :-0.113 %
+Env #:0 Genome_id # :354 Fitness :160664.29 Final Amt :4464.42 Days :236 Avg Daily Profit :0.367 %
+Env #:0 Genome_id # :355 Fitness :72478.48 Final Amt :3311.82 Days :236 Avg Daily Profit :0.235 %
+Env #:0 Genome_id # :357 Fitness :126446.93 Final Amt :4476.26 Days :236 Avg Daily Profit :0.367 %
+Env #:0 Genome_id # :358 Fitness :124867.31 Final Amt :5497.91 Days :236 Avg Daily Profit :0.452 %
+Env #:0 Genome_id # :310 Fitness :245492.58 Final Amt :4872.42 Days :236 Avg Daily Profit :0.399 %
+Env #:0 Genome_id # :365 Fitness :107973.03 Final Amt :4193.7 Days :236 Avg Daily Profit :0.341 %
+Env #:0 Genome_id # :308 Fitness :373402.23 Final Amt :6170.76 Days :236 Avg Daily Profit :0.501 %
+Env #:0 Genome_id # :372 Fitness :178141.37 Final Amt :3854.81 Days :236 Avg Daily Profit :0.295 %
+Env #:0 Genome_id # :310 Fitness :245492.58 Final Amt :4872.42 Days :236 Avg Daily Profit :0.399 %
+Env #:0 Genome_id # :379 Fitness :14084.58 Final Amt :2268.72 Days :236 Avg Daily Profit :0.055 %
+Env #:0 Genome_id # :384 Fitness :106110.37 Final Amt :3500.6 Days :236 Avg Daily Profit :0.258 %
+Env #:0 Genome_id # :220 Fitness :405109.96 Final Amt :5719.74 Days :236 Avg Daily Profit :0.472 %
+Env #:0 Genome_id # :389 Fitness :-115197.81 Final Amt :893.72 Days :236 Avg Daily Profit :-0.319 %
+Env #:0 Genome_id # :390 Fitness :-113013.68 Final Amt :829.06 Days :236 Avg Daily Profit :-0.347 %
+Env #:0 Genome_id # :394 Fitness :188965.26 Final Amt :4044.39 Days :236 Avg Daily Profit :0.323 %
+Env #:0 Genome_id # :395 Fitness :0.0 Final Amt :2000.0 Days :236 Avg Daily Profit :0.0 %
+Env #:0 Genome_id # :398 Fitness :-159620.17 Final Amt :818.34 Days :236 Avg Daily Profit :-0.359 %
+Env #:0 Genome_id # :399 Fitness :71767.12 Final Amt :3351.87 Days :236 Avg Daily Profit :0.233 %
+Env #:0 Genome_id # :403 Fitness :42962.16 Final Amt :2648.51 Days :236 Avg Daily Profit :0.131 %
+Env #:0 Genome_id # :404 Fitness :-140725.87 Final Amt :799.84 Days :236 Avg Daily Profit :-0.365 %
+
+Env #:0 Genome_id # :217 Fitness :-98449.68 Final Amt :805.52 Days :236 Avg Daily Profit :-0.358 %
+Env #:0 Genome_id # :218 Fitness :320552.15 Final Amt :5725.25 Days :236 Avg Daily Profit :0.472 %
+Env #:0 Genome_id # :223 Fitness :-618.59 Final Amt :1981.86 Days :236 Avg Daily Profit :0.004 %
+Env #:0 Genome_id # :224 Fitness :-40043.29 Final Amt :1446.81 Days :236 Avg Daily Profit :-0.13 %
+Env #:0 Genome_id # :228 Fitness :104207.17 Final Amt :4673.61 Days :236 Avg Daily Profit :0.388 %
+Env #:0 Genome_id # :229 Fitness :78994.65 Final Amt :4006.77 Days :236 Avg Daily Profit :0.322 %
+Env #:0 Genome_id # :207 Fitness :326926.62 Final Amt :4571.2 Days :236 Avg Daily Profit :0.374 %
+Env #:0 Genome_id # :230 Fitness :116400.32 Final Amt :4114.42 Days :236 Avg Daily Profit :0.333 %
+Env #:0 Genome_id # :118 Fitness :221228.38 Final Amt :4067.71 Days :236 Avg Daily Profit :0.324 %
+Env #:0 Genome_id # :239 Fitness :104060.86 Final Amt :3029.42 Days :236 Avg Daily Profit :0.195 %
+Env #:0 Genome_id # :247 Fitness :-74763.6 Final Amt :1095.19 Days :236 Avg Daily Profit :-0.238 %
+Env #:0 Genome_id # :248 Fitness :108035.07 Final Amt :3779.38 Days :236 Avg Daily Profit :0.296 %
+Env #:0 Genome_id # :118 Fitness :221228.38 Final Amt :4067.71 Days :236 Avg Daily Profit :0.324 %
+Env #:0 Genome_id # :253 Fitness :-2972.1 Final Amt :1955.3 Days :236 Avg Daily Profit :-0.009 %
+Env #:0 Genome_id # :258 Fitness :96978.37 Final Amt :3972.79 Days :236 Avg Daily Profit :0.32 %
+Env #:0 Genome_id # :259 Fitness :118188.77 Final Amt :3713.49 Days :236 Avg Daily Profit :0.282 %
+Env #:0 Genome_id # :263 Fitness :69419.76 Final Amt :3241.21 Days :236 Avg Daily Profit :0.223 %
+Env #:0 Genome_id # :264 Fitness :-62016.49 Final Amt :734.49 Days :236 Avg Daily Profit :-0.402 %
+Env #:0 Genome_id # :270 Fitness :-82920.23 Final Amt :1039.58 Days :236 Avg Daily Profit :-0.264 %
+Env #:0 Genome_id # :271 Fitness :134372.9 Final Amt :4052.59 Days :236 Avg Daily Profit :0.327 %
+Env #:0 Genome_id # :272 Fitness :92926.26 Final Amt :4079.02 Days :236 Avg Daily Profit :0.326 %
+Env #:0 Genome_id # :220 Fitness :405109.96 Final Amt :5719.74 Days :236 Avg Daily Profit :0.472 %
+Env #:0 Genome_id # :279 Fitness :106505.92 Final Amt :4578.53 Days :236 Avg Daily Profit :0.377 %
+Env #:0 Genome_id # :280 Fitness :-31182.9 Final Amt :6202.55 Days :236 Avg Daily Profit :0.499 %
+Env #:0 Genome_id # :284 Fitness :226722.58 Final Amt :4370.93 Days :236 Avg Daily Profit :0.352 %
+Env #:0 Genome_id # :285 Fitness :-132866.08 Final Amt :788.75 Days :236 Avg Daily Profit :-0.371 %
+Env #:0 Genome_id # :289 Fitness :20682.9 Final Amt :2363.23 Days :236 Avg Daily Profit :0.076 %
+Env #:0 Genome_id # :290 Fitness :-33236.37 Final Amt :1373.01 Days :236 Avg Daily Profit :-0.14 %
+Env #:0 Genome_id # :284 Fitness :226722.58 Final Amt :4370.93 Days :236 Avg Daily Profit :0.352 %
+Env #:0 Genome_id # :295 Fitness :126944.47 Final Amt :4379.57 Days :236 Avg Daily Profit :0.359 %
+Env #:0 Genome_id # :300 Fitness :-113129.33 Final Amt :938.81 Days :236 Avg Daily Profit :-0.303 %
+Env #:0 Genome_id # :220 Fitness :405109.96 Final Amt :5719.74 Days :236 Avg Daily Profit :0.472 %
+Env #:0 Genome_id # :307 Fitness :-113743.86 Final Amt :852.28 Days :236 Avg Daily Profit :-0.335 %
+Env #:0 Genome_id # :308 Fitness :373402.23 Final Amt :6170.76 Days :236 Avg Daily Profit :0.501 %
+Env #:0 Genome_id # :312 Fitness :-139958.88 Final Amt :752.55 Days :236 Avg Daily Profit :-0.39 %
+Env #:0 Genome_id # :313 Fitness :147703.62 Final Amt :4167.89 Days :236 Avg Daily Profit :0.331 %
+Env #:0 Genome_id # :317 Fitness :-92927.82 Final Amt :873.12 Days :236 Avg Daily Profit :-0.324 %
+Env #:0 Genome_id # :318 Fitness :-106783.25 Final Amt :881.84 Days :236 Avg Daily Profit :-0.321 %
+Env #:0 Genome_id # :310 Fitness :245492.58 Final Amt :4872.42 Days :236 Avg Daily Profit :0.399 %
+Env #:0 Genome_id # :323 Fitness :169670.97 Final Amt :4526.17 Days :236 Avg Daily Profit :0.37 %
+Env #:0 Genome_id # :331 Fitness :154734.68 Final Amt :4087.07 Days :236 Avg Daily Profit :0.322 %
+Env #:0 Genome_id # :332 Fitness :203596.56 Final Amt :5075.64 Days :236 Avg Daily Profit :0.415 %
+Env #:0 Genome_id # :310 Fitness :245492.58 Final Amt :4872.42 Days :236 Avg Daily Profit :0.399 %
+Env #:0 Genome_id # :337 Fitness :101631.06 Final Amt :3894.81 Days :236 Avg Daily Profit :0.306 %
+Env #:0 Genome_id # :345 Fitness :148331.19 Final Amt :6396.66 Days :236 Avg Daily Profit :0.516 %
+Env #:0 Genome_id # :346 Fitness :203782.5 Final Amt :3418.68 Days :236 Avg Daily Profit :0.256 %
+Env #:0 Genome_id # :310 Fitness :245492.58 Final Amt :4872.42 Days :236 Avg Daily Profit :0.399 %
+Env #:0 Genome_id # :351 Fitness :-86377.11 Final Amt :1042.0 Days :236 Avg Daily Profit :-0.257 %
+Env #:0 Genome_id # :202 Fitness :374726.28 Final Amt :3456.07 Days :236 Avg Daily Profit :0.261 %
+Env #:0 Genome_id # :308 Fitness :373402.23 Final Amt :6170.76 Days :236 Avg Daily Profit :0.501 %
+Env #:0 Genome_id # :268 Fitness :293412.73 Final Amt :5132.44 Days :236 Avg Daily Profit :0.424 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :220 Fitness :405109.96 Final Amt :5719.74 Days :236 Avg Daily Profit :0.472 %
+Env #:0 Genome_id # :202 Fitness :374726.28 Final Amt :3456.07 Days :236 Avg Daily Profit :0.261 %
+Env #:0 Genome_id # :268 Fitness :293412.73 Final Amt :5132.44 Days :236 Avg Daily Profit :0.424 %
+Env #:0 Genome_id # :1072 Fitness :265631.29 Final Amt :5064.48 Days :236 Avg Daily Profit :0.413 %
+Env #:0 Genome_id # :387 Fitness :141914.14 Final Amt :5444.96 Days :236 Avg Daily Profit :0.444 %
+Env #:0 Genome_id # :388 Fitness :178256.12 Final Amt :3424.2 Days :236 Avg Daily Profit :0.252 %
+Env #:0 Genome_id # :310 Fitness :245492.58 Final Amt :4872.42 Days :236 Avg Daily Profit :0.399 %
+Env #:0 Genome_id # :393 Fitness :90353.73 Final Amt :3640.31 Days :236 Avg Daily Profit :0.273 %
+Env #:0 Genome_id # :220 Fitness :405109.96 Final Amt :5719.74 Days :236 Avg Daily Profit :0.472 %
+Env #:0 Genome_id # :202 Fitness :374726.28 Final Amt :3456.07 Days :236 Avg Daily Profit :0.261 %
+Env #:0 Genome_id # :405 Fitness :104395.41 Final Amt :3751.18 Days :236 Avg Daily Profit :0.286 %
+Env #:0 Genome_id # :406 Fitness :-74123.97 Final Amt :936.14 Days :236 Avg Daily Profit :-0.296 %
+
+Total extinctions: 0
+Generation time: 2267.835 sec (2427.456 average)
+Saving checkpoint to neat-checkpoint-28
+
+ ****** Running generation 29 ****** 
+
+Population's average fitness: 109867.55065 stdev: 188511.36532
+Best fitness: 405109.95600 - size: (10, 31) - species 2 - id 220
+Average adjusted fitness: 0.477
+Mean genetic distance 2.155, standard deviation 1.073
+Population of 20 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   29     9  293412.7    0.451     9
+     2   29    11  405110.0    0.504    13
+Total extinctions: 0
+Generation time: 2018.004 sec (2390.055 average)
+Saving checkpoint to neat-checkpoint-29
+Key: 220
+Fitness: 405109.9559999992
+Nodes:
+	0 DefaultNodeGene(key=0, bias=-1.0996940817284517, response=1.2523215395648957, activation=relu, aggregation=mean)
+	1 DefaultNodeGene(key=1, bias=0.24295955414850712, response=1.0054612946776227, activation=relu, aggregation=median)
+	2 DefaultNodeGene(key=2, bias=-0.05820798265814359, response=1.0025174483298955, activation=relu, aggregation=mean)
+	227 DefaultNodeGene(key=227, bias=3.117708781314373, response=0.9939951932361436, activation=relu, aggregation=max)
+	24 DefaultNodeGene(key=24, bias=1.0314690457219993, response=1.1664365042450549, activation=relu, aggregation=median)
+	42 DefaultNodeGene(key=42, bias=1.5165643611077664, response=0.8452065050811558, activation=relu, aggregation=maxabs)
+	363 DefaultNodeGene(key=363, bias=-0.6889129915925594, response=0.909148750422231, activation=relu, aggregation=mean)
+	63 DefaultNodeGene(key=63, bias=-1.0332853349087692, response=1.5106569845540114, activation=relu, aggregation=mean)
+	813 DefaultNodeGene(key=813, bias=0.3668206874473843, response=1.1617907444706013, activation=sigmoid, aggregation=mean)
+	878 DefaultNodeGene(key=878, bias=-1.0324181562724475, response=1.0289552327799232, activation=relu, aggregation=sum)
+Connections:
+	DefaultConnectionGene(key=(-34, 2), weight=-0.45253432487871004, enabled=False)
+	DefaultConnectionGene(key=(-33, 1), weight=-0.3279126796347059, enabled=False)
+	DefaultConnectionGene(key=(-33, 2), weight=2.4711011419094695, enabled=True)
+	DefaultConnectionGene(key=(-32, 2), weight=-0.8532570480801646, enabled=True)
+	DefaultConnectionGene(key=(-31, 0), weight=-0.585382837661967, enabled=False)
+	DefaultConnectionGene(key=(-31, 2), weight=-3.624779962945735, enabled=False)
+	DefaultConnectionGene(key=(-31, 813), weight=2.115622042354356, enabled=True)
+	DefaultConnectionGene(key=(-28, 0), weight=-2.723641482112552, enabled=False)
+	DefaultConnectionGene(key=(-28, 227), weight=1.0705085046375362, enabled=True)
+	DefaultConnectionGene(key=(-28, 813), weight=0.9921936178256311, enabled=False)
+	DefaultConnectionGene(key=(-27, 2), weight=0.8098710640273276, enabled=True)
+	DefaultConnectionGene(key=(-27, 878), weight=-2.3627754730370625, enabled=False)
+	DefaultConnectionGene(key=(-26, 0), weight=1.5519784065411166, enabled=False)
+	DefaultConnectionGene(key=(-26, 1), weight=1.1905915884891802, enabled=True)
+	DefaultConnectionGene(key=(-26, 2), weight=0.9616560217150601, enabled=False)
+	DefaultConnectionGene(key=(-26, 63), weight=1.4863438395282518, enabled=False)
+	DefaultConnectionGene(key=(-25, 2), weight=2.4618677555199806, enabled=True)
+	DefaultConnectionGene(key=(-24, 0), weight=1.414101278239018, enabled=False)
+	DefaultConnectionGene(key=(-24, 1), weight=-0.6646207199695664, enabled=True)
+	DefaultConnectionGene(key=(-23, 0), weight=0.36682609066639094, enabled=True)
+	DefaultConnectionGene(key=(-23, 2), weight=-0.9443545777817168, enabled=False)
+	DefaultConnectionGene(key=(-22, 1), weight=-2.95538299952056, enabled=False)
+	DefaultConnectionGene(key=(-22, 2), weight=0.16435824088996887, enabled=True)
+	DefaultConnectionGene(key=(-21, 0), weight=-0.8066321828191831, enabled=True)
+	DefaultConnectionGene(key=(-20, 1), weight=-2.250194095957396, enabled=True)
+	DefaultConnectionGene(key=(-19, 0), weight=1.081677645164194, enabled=False)
+	DefaultConnectionGene(key=(-19, 2), weight=-0.46004666733914207, enabled=False)
+	DefaultConnectionGene(key=(-18, 0), weight=-2.45792984026618, enabled=True)
+	DefaultConnectionGene(key=(-18, 1), weight=-0.05578920063925241, enabled=True)
+	DefaultConnectionGene(key=(-18, 42), weight=0.07096189855874668, enabled=True)
+	DefaultConnectionGene(key=(-17, 2), weight=1.3667982066581505, enabled=False)
+	DefaultConnectionGene(key=(-16, 0), weight=0.31153073654970875, enabled=False)
+	DefaultConnectionGene(key=(-16, 1), weight=0.26035631724202785, enabled=False)
+	DefaultConnectionGene(key=(-15, 0), weight=2.552810482207988, enabled=False)
+	DefaultConnectionGene(key=(-15, 2), weight=4.309626600745153, enabled=True)
+	DefaultConnectionGene(key=(-14, 1), weight=-1.0499438785110304, enabled=True)
+	DefaultConnectionGene(key=(-14, 2), weight=-1.2026862021560736, enabled=True)
+	DefaultConnectionGene(key=(-13, 0), weight=-0.6156125819332918, enabled=True)
+	DefaultConnectionGene(key=(-13, 1), weight=1.2085012225846932, enabled=False)
+	DefaultConnectionGene(key=(-13, 2), weight=1.492574463634773, enabled=True)
+	DefaultConnectionGene(key=(-12, 1), weight=3.109933214375168, enabled=False)
+	DefaultConnectionGene(key=(-12, 2), weight=0.09434825308113859, enabled=True)
+	DefaultConnectionGene(key=(-11, 24), weight=1.0278012630239202, enabled=False)
+	DefaultConnectionGene(key=(-10, 63), weight=0.09604050050478974, enabled=False)
+	DefaultConnectionGene(key=(-8, 1), weight=-0.7151711706890751, enabled=False)
+	DefaultConnectionGene(key=(-7, 0), weight=-0.3992534536923766, enabled=False)
+	DefaultConnectionGene(key=(-7, 2), weight=-2.23519040414657, enabled=True)
+	DefaultConnectionGene(key=(-7, 42), weight=2.804662838387787, enabled=False)
+	DefaultConnectionGene(key=(-6, 2), weight=1.4836947428267444, enabled=True)
+	DefaultConnectionGene(key=(-4, 1), weight=-2.0190752355504347, enabled=False)
+	DefaultConnectionGene(key=(-4, 24), weight=0.10568319738366504, enabled=False)
+	DefaultConnectionGene(key=(-4, 363), weight=-0.9732005098381001, enabled=True)
+	DefaultConnectionGene(key=(-3, 0), weight=2.103738456675387, enabled=True)
+	DefaultConnectionGene(key=(-3, 1), weight=0.3109139516162618, enabled=True)
+	DefaultConnectionGene(key=(-3, 2), weight=1.8837239352556021, enabled=False)
+	DefaultConnectionGene(key=(-2, 2), weight=0.21445383299788667, enabled=False)
+	DefaultConnectionGene(key=(-1, 0), weight=2.4419112104086986, enabled=False)
+	DefaultConnectionGene(key=(-1, 2), weight=-3.0951542576372173, enabled=True)
+	DefaultConnectionGene(key=(1, 1), weight=0.39927186809886556, enabled=True)
+	DefaultConnectionGene(key=(24, 0), weight=1.9048392883722363, enabled=False)
+	DefaultConnectionGene(key=(24, 1), weight=1.8610464842573786, enabled=False)
+	DefaultConnectionGene(key=(42, 0), weight=-1.2204054360780394, enabled=False)
+	DefaultConnectionGene(key=(63, 1), weight=-0.6259869174434975, enabled=True)
+	DefaultConnectionGene(key=(227, 0), weight=0.41071757973062906, enabled=True)
+	DefaultConnectionGene(key=(363, 1), weight=2.5878657898958215, enabled=False)
+	DefaultConnectionGene(key=(813, 2), weight=1.8526060225731473, enabled=False)
+	DefaultConnectionGene(key=(878, 2), weight=0.8794658687998003, enabled=True)

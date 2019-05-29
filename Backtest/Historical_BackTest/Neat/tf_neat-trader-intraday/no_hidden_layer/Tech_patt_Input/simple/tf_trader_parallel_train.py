@@ -28,7 +28,7 @@ env = trader_env.Weighted_Unrealized_BS_Env(train_data)
 max_env_steps = len(env.data) - env.t - 1
 
 resume = True
-restore_file = "neat-checkpoint-41"
+restore_file = "neat-checkpoint-0"
 
 
 def make_env():
@@ -103,5 +103,5 @@ def run(n_generations, n_processes):
 
 
 if __name__ == "__main__":
-    run(n_generations=1, n_processes=3)
+    run(n_generations=1, n_processes=4)
 
