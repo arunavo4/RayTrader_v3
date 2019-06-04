@@ -1,0 +1,421 @@
+nohup: ignoring input
+
+ ****** Running generation 0 ****** 
+
+Population's average fitness: -915.57195 stdev: 18559.80782
+Best fitness: 35863.85800 - size: (3, 30) - species 1 - id 3
+Average adjusted fitness: 0.399
+Mean genetic distance 2.318, standard deviation 0.479
+Population of 20 members in 4 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    0     4  35863.9    0.485     0
+     2    0     3   -960.1    0.341     0
+     3    0     8   -879.4    0.372     0
+     4    0     5       --       --     0
+Total extinctions: 0
+Generation time: 720.598 sec
+Saving checkpoint to neat-checkpoint-0
+
+ ****** Running generation 1 ****** 
+
+Population's average fitness: 7002.67255 stdev: 18013.79835
+Best fitness: 35863.85800 - size: (3, 30) - species 3 - id 3
+Average adjusted fitness: 0.579
+Mean genetic distance 2.328, standard deviation 0.480
+Population of 20 members in 4 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    1     3      0.0    0.309     1
+     2    1     5  24704.2    0.663     0
+     3    1     5  35863.9    0.658     0
+     4    1     7  29414.4    0.685     0
+Total extinctions: 0
+Generation time: 711.296 sec (715.947 average)
+Saving checkpoint to neat-checkpoint-1
+
+ ****** Running generation 2 ****** 
+
+Population's average fitness: 12184.61535 stdev: 16568.08625
+Best fitness: 35863.85800 - size: (3, 30) - species 2 - id 3
+Average adjusted fitness: 0.517
+Mean genetic distance 2.283, standard deviation 0.461
+Population of 21 members in 4 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    2     3      0.0    0.208     2
+     2    2     3  35863.9    0.553     0
+     3    2     6  35728.9    0.747     1
+     4    2     9  32537.6    0.559     0
+Total extinctions: 0
+Generation time: 724.034 sec (718.643 average)
+Saving checkpoint to neat-checkpoint-2
+
+ ****** Running generation 3 ****** 
+
+Population's average fitness: 14314.29286 stdev: 19642.29091
+Best fitness: 46351.15300 - size: (3, 22) - species 3 - id 47
+Average adjusted fitness: 0.529
+Mean genetic distance 2.149, standard deviation 0.533
+Population of 21 members in 4 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    3     3      0.0    0.274     3
+     2    3     4  35863.9    0.609     1
+     3    3     7  46351.2    0.694     0
+     4    3     7  32537.6    0.539     1
+Total extinctions: 0
+Generation time: 887.759 sec (760.922 average)
+Saving checkpoint to neat-checkpoint-3
+
+ ****** Running generation 4 ****** 
+
+Population's average fitness: 10684.49414 stdev: 20317.69887
+Best fitness: 46351.15300 - size: (3, 22) - species 3 - id 47
+Average adjusted fitness: 0.449
+Mean genetic distance 2.136, standard deviation 0.622
+Population of 20 members in 4 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    4     3      0.0    0.232     4
+     2    4     5  35863.9    0.542     2
+     3    4     6  46351.2    0.559     1
+     4    4     6  32537.6    0.461     2
+Total extinctions: 0
+Generation time: 798.553 sec (768.448 average)
+Saving checkpoint to neat-checkpoint-4
+
+ ****** Running generation 5 ****** 
+
+Population's average fitness: 13997.93340 stdev: 20033.53486
+Best fitness: 46351.15300 - size: (3, 22) - species 3 - id 47
+Average adjusted fitness: 0.527
+Mean genetic distance 2.079, standard deviation 0.606
+Population of 21 members in 4 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    5     4      0.0    0.289     5
+     2    5     5  35863.9    0.564     3
+     3    5     5  46351.2    0.580     2
+     4    5     7  36898.3    0.673     0
+Total extinctions: 0
+Generation time: 714.393 sec (759.439 average)
+Saving checkpoint to neat-checkpoint-5
+
+ ****** Running generation 6 ****** 
+
+Population's average fitness: 15976.20000 stdev: 16920.72381
+Best fitness: 46351.15300 - size: (3, 22) - species 3 - id 47
+Average adjusted fitness: 0.506
+Mean genetic distance 2.160, standard deviation 0.588
+Population of 21 members in 4 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    6     3  16289.9    0.261     6
+     2    6     5  35863.9    0.534     4
+     3    6     7  46351.2    0.691     3
+     4    6     6  36898.3    0.536     1
+Total extinctions: 0
+Generation time: 820.028 sec (768.095 average)
+Saving checkpoint to neat-checkpoint-6
+
+ ****** Running generation 7 ****** 
+
+Population's average fitness: 19301.73852 stdev: 15954.94154
+Best fitness: 46351.15300 - size: (3, 22) - species 3 - id 47
+Average adjusted fitness: 0.552
+Mean genetic distance 2.124, standard deviation 0.616
+Population of 21 members in 4 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    7     3  16289.9    0.359     7
+     2    7     9  35863.9    0.646     5
+     3    7     4  46351.2    0.639     4
+     4    7     5  36898.3    0.565     2
+Total extinctions: 0
+Generation time: 908.636 sec (785.662 average)
+Saving checkpoint to neat-checkpoint-7
+
+ ****** Running generation 8 ****** 
+
+Population's average fitness: 18432.22495 stdev: 16076.61245
+Best fitness: 46351.15300 - size: (3, 22) - species 3 - id 47
+Average adjusted fitness: 0.567
+Mean genetic distance 2.064, standard deviation 0.684
+Population of 20 members in 4 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    8     4  16289.9    0.401     8
+     2    8     6  35863.9    0.553     6
+     3    8     5  46351.2    0.716     5
+     4    8     5  36898.3    0.597     3
+Total extinctions: 0
+Generation time: 836.772 sec (791.341 average)
+Saving checkpoint to neat-checkpoint-8
+
+ ****** Running generation 9 ****** 
+
+Population's average fitness: 21580.24475 stdev: 18589.03519
+Best fitness: 46351.15300 - size: (3, 22) - species 3 - id 47
+Average adjusted fitness: 0.620
+Mean genetic distance 2.098, standard deviation 0.597
+Population of 20 members in 4 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    9     2  16289.9    0.403     9
+     2    9     8  43423.9    0.764     0
+     3    9     4  46351.2    0.613     6
+     4    9     6  36898.3    0.702     4
+Total extinctions: 0
+Generation time: 700.361 sec (782.243 average)
+Saving checkpoint to neat-checkpoint-9
+
+ ****** Running generation 10 ****** 
+
+Population's average fitness: 17707.81000 stdev: 18540.77128
+Best fitness: 46351.15300 - size: (3, 22) - species 3 - id 47
+Average adjusted fitness: 0.508
+Mean genetic distance 2.107, standard deviation 0.683
+Population of 21 members in 4 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   10     3   5345.8    0.285    10
+     2   10     7  43423.9    0.513     1
+     3   10     6  46351.2    0.731     7
+     4   10     5  36898.3    0.502     5
+Total extinctions: 0
+Generation time: 736.149 sec (783.798 average)
+Saving checkpoint to neat-checkpoint-10
+
+ ****** Running generation 11 ****** 
+
+Population's average fitness: 18949.28648 stdev: 19328.10291
+Best fitness: 46351.15300 - size: (3, 22) - species 3 - id 47
+Average adjusted fitness: 0.577
+Mean genetic distance 2.104, standard deviation 0.701
+Population of 20 members in 4 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   11     3   5345.8    0.305    11
+     2   11     6  43423.9    0.720     2
+     3   11     5  46351.2    0.583     8
+     4   11     6  36898.3    0.700     6
+Total extinctions: 0
+Generation time: 906.888 sec (803.357 average)
+Saving checkpoint to neat-checkpoint-11
+
+ ****** Running generation 12 ****** 
+
+Population's average fitness: 17916.33895 stdev: 20055.23479
+Best fitness: 46351.15300 - size: (3, 22) - species 3 - id 47
+Average adjusted fitness: 0.529
+Mean genetic distance 2.083, standard deviation 0.693
+Population of 21 members in 4 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1   12     3   5345.8    0.245    12
+     2   12     7  43423.9    0.706     3
+     3   12     6  46351.2    0.602     9Env #:0 Genome_id # :4 Fitness :27668.32 Final Amt :5853.71 Days :236 Avg Daily Profit :0.463 %
+Env #:0 Genome_id # :13 Fitness :11335.21 Final Amt :2786.71 Days :236 Avg Daily Profit :0.144 %
+Env #:0 Genome_id # :21 Fitness :11695.3 Final Amt :3450.33 Days :236 Avg Daily Profit :0.263 %
+Env #:0 Genome_id # :27 Fitness :-35503.87 Final Amt :1475.11 Days :236 Avg Daily Profit :-0.111 %
+Env #:0 Genome_id # :4 Fitness :27668.32 Final Amt :5853.71 Days :236 Avg Daily Profit :0.463 %
+Env #:0 Genome_id # :38 Fitness :-584.97 Final Amt :1925.56 Days :236 Avg Daily Profit :-0.015 %
+Env #:0 Genome_id # :40 Fitness :-960.06 Final Amt :1731.35 Days :236 Avg Daily Profit :-0.041 %
+Env #:0 Genome_id # :25 Fitness :26113.4 Final Amt :2453.87 Days :236 Avg Daily Profit :0.104 %
+Env #:0 Genome_id # :37 Fitness :32537.55 Final Amt :1510.52 Days :236 Avg Daily Profit :-0.096 %
+Env #:0 Genome_id # :58 Fitness :24563.44 Final Amt :2331.0 Days :236 Avg Daily Profit :0.082 %
+Env #:0 Genome_id # :62 Fitness :-17739.14 Final Amt :1526.95 Days :236 Avg Daily Profit :-0.095 %
+Env #:0 Genome_id # :30 Fitness :28019.66 Final Amt :2533.91 Days :236 Avg Daily Profit :0.118 %
+Env #:0 Genome_id # :60 Fitness :36898.33 Final Amt :1307.76 Days :236 Avg Daily Profit :-0.16 %
+Env #:0 Genome_id # :75 Fitness :16289.9 Final Amt :2134.74 Days :236 Avg Daily Profit :0.047 %
+Env #:0 Genome_id # :3 Fitness :35863.86 Final Amt :2273.31 Days :236 Avg Daily Profit :0.081 %
+Env #:0 Genome_id # :47 Fitness :46351.15 Final Amt :2208.2 Days :236 Avg Daily Profit :0.07 %
+Env #:0 Genome_id # :87 Fitness :10803.77 Final Amt :3723.11 Days :236 Avg Daily Profit :0.285 %
+Env #:0 Genome_id # :91 Fitness :-18998.08 Final Amt :1726.99 Days :236 Avg Daily Profit :-0.045 %
+Env #:0 Genome_id # :22 Fitness :0.0 Final Amt :2000.0 Days :236 Avg Daily Profit :0.0 %
+Env #:0 Genome_id # :60 Fitness :36898.33 Final Amt :1307.76 Days :236 Avg Daily Profit :-0.16 %
+Env #:0 Genome_id # :95 Fitness :87.84 Final Amt :2250.2 Days :236 Avg Daily Profit :0.071 %
+Env #:0 Genome_id # :108 Fitness :1200.93 Final Amt :2061.62 Days :236 Avg Daily Profit :0.033 %
+Env #:0 Genome_id # :111 Fitness :-15439.42 Final Amt :1602.91 Days :236 Avg Daily Profit :-0.074 %
+Env #:0 Genome_id # :116 Fitness :22888.9 Final Amt :2351.52 Days :236 Avg Daily Profit :0.087 %
+Env #:0 Genome_id # :122 Fitness :1523.11 Final Amt :2112.44 Days :236 Avg Daily Profit :0.043 %
+Env #:0 Genome_id # :124 Fitness :-960.06 Final Amt :1731.35 Days :236 Avg Daily Profit :-0.041 %
+Env #:0 Genome_id # :95 Fitness :87.84 Final Amt :2250.2 Days :236 Avg Daily Profit :0.071 %
+Env #:0 Genome_id # :133 Fitness :11359.61 Final Amt :2008.29 Days :236 Avg Daily Profit :0.017 %
+Env #:0 Genome_id # :99 Fitness :33998.21 Final Amt :1232.86 Days :236 Avg Daily Profit :-0.191 %
+Env #:0 Genome_id # :141 Fitness :1434.06 Final Amt :2104.74 Days :236 Avg Daily Profit :0.041 %
+Env #:0 Genome_id # :95 Fitness :87.84 Final Amt :2250.2 Days :236 Avg Daily Profit :0.071 %
+Env #:0 Genome_id # :47 Fitness :46351.15 Final Amt :2208.2 Days :236 Avg Daily Profit :0.07 %
+Env #:0 Genome_id # :99 Fitness :33998.21 Final Amt :1232.86 Days :236 Avg Daily Profit :-0.191 %
+Env #:0 Genome_id # :158 Fitness :-15282.57 Final Amt :1525.5 Days :236 Avg Daily Profit :-0.093 %
+Env #:0 Genome_id # :60 Fitness :36898.33 Final Amt :1307.76 Days :236 Avg Daily Profit :-0.16 %
+Process ForkPoolWorker-4:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/multiprocessing/pool.py", line 125, in worker
+    put((job, i, result))
+  File "/usr/lib/python3.6/multiprocessing/queues.py", line 347, in put
+    self._writer.send_bytes(obj)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.6/multiprocessing/pool.py", line 130, in worker
+    put((job, i, (False, wrapped)))
+  File "/usr/lib/python3.6/multiprocessing/queues.py", line 347, in put
+    self._writer.send_bytes(obj)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Env #:0 Genome_id # :5 Fitness :-960.06 Final Amt :1731.35 Days :236 Avg Daily Profit :-0.041 %
+Env #:0 Genome_id # :11 Fitness :165.88 Final Amt :1971.12 Days :236 Avg Daily Profit :-0.005 %
+Env #:0 Genome_id # :5 Fitness :-960.06 Final Amt :1731.35 Days :236 Avg Daily Profit :-0.041 %
+Env #:0 Genome_id # :26 Fitness :4063.89 Final Amt :2225.72 Days :236 Avg Daily Profit :0.046 %
+Env #:0 Genome_id # :32 Fitness :-1328.09 Final Amt :1731.35 Days :236 Avg Daily Profit :-0.041 %
+Env #:0 Genome_id # :37 Fitness :32537.55 Final Amt :1510.52 Days :236 Avg Daily Profit :-0.096 %
+Env #:0 Genome_id # :16 Fitness :29414.45 Final Amt :1833.03 Days :236 Avg Daily Profit :-0.018 %
+Env #:0 Genome_id # :23 Fitness :24704.22 Final Amt :2387.78 Days :236 Avg Daily Profit :0.093 %
+Env #:0 Genome_id # :52 Fitness :-488.19 Final Amt :1975.25 Days :236 Avg Daily Profit :-0.005 %
+Env #:0 Genome_id # :21 Fitness :11695.3 Final Amt :3450.33 Days :236 Avg Daily Profit :0.263 %
+Env #:0 Genome_id # :59 Fitness :-20841.24 Final Amt :1618.13 Days :236 Avg Daily Profit :-0.072 %
+Env #:0 Genome_id # :3 Fitness :35863.86 Final Amt :2273.31 Days :236 Avg Daily Profit :0.081 %
+Env #:0 Genome_id # :47 Fitness :46351.15 Final Amt :2208.2 Days :236 Avg Daily Profit :0.07 %
+Env #:0 Genome_id # :69 Fitness :2566.26 Final Amt :2233.95 Days :236 Avg Daily Profit :0.075 %
+Env #:0 Genome_id # :71 Fitness :21561.57 Final Amt :2266.61 Days :236 Avg Daily Profit :0.07 %
+Env #:0 Genome_id # :68 Fitness :23713.4 Final Amt :2422.71 Days :236 Avg Daily Profit :0.1 %
+Env #:0 Genome_id # :82 Fitness :-2123.03 Final Amt :1884.39 Days :236 Avg Daily Profit :-0.024 %
+Env #:0 Genome_id # :22 Fitness :0.0 Final Amt :2000.0 Days :236 Avg Daily Profit :0.0 %
+Env #:0 Genome_id # :60 Fitness :36898.33 Final Amt :1307.76 Days :236 Avg Daily Profit :-0.16 %
+Env #:0 Genome_id # :75 Fitness :16289.9 Final Amt :2134.74 Days :236 Avg Daily Profit :0.047 %
+Env #:0 Genome_id # :99 Fitness :33998.21 Final Amt :1232.86 Days :236 Avg Daily Profit :-0.191 %
+Env #:0 Genome_id # :37 Fitness :32537.55 Final Amt :1510.52 Days :236 Avg Daily Profit :-0.096 %
+Env #:0 Genome_id # :47 Fitness :46351.15 Final Amt :2208.2 Days :236 Avg Daily Profit :0.07 %
+Env #:0 Genome_id # :113 Fitness :21650.78 Final Amt :914.31 Days :236 Avg Daily Profit :-0.306 %
+Env #:0 Genome_id # :119 Fitness :2756.77 Final Amt :2176.81 Days :236 Avg Daily Profit :0.038 %
+Env #:0 Genome_id # :86 Fitness :5345.79 Final Amt :2523.61 Days :236 Avg Daily Profit :0.102 %
+Env #:0 Genome_id # :98 Fitness :42338.48 Final Amt :2207.47 Days :236 Avg Daily Profit :0.068 %
+Env #:0 Genome_id # :86 Fitness :5345.79 Final Amt :2523.61 Days :236 Avg Daily Profit :0.102 %
+Env #:0 Genome_id # :3 Fitness :35863.86 Final Amt :2273.31 Days :236 Avg Daily Profit :0.081 %
+Env #:0 Genome_id # :137 Fitness :2156.75 Final Amt :1853.11 Days :236 Avg Daily Profit :-0.003 %
+Env #:0 Genome_id # :97 Fitness :43423.87 Final Amt :1684.47 Days :236 Avg Daily Profit :-0.054 %
+Env #:0 Genome_id # :30 Fitness :28019.66 Final Amt :2533.91 Days :236 Avg Daily Profit :0.118 %
+Env #:0 Genome_id # :97 Fitness :43423.87 Final Amt :1684.47 Days :236 Avg Daily Profit :-0.054 %
+Env #:0 Genome_id # :30 Fitness :28019.66 Final Amt :2533.91 Days :236 Avg Daily Profit :0.118 %
+Env #:0 Genome_id # :37 Fitness :32537.55 Final Amt :1510.52 Days :236 Avg Daily Profit :-0.096 %
+Env #:0 Genome_id # :152 Fitness :35083.42 Final Amt :2363.62 Days :236 Avg Daily Profit :0.098 %
+Env #:0 Genome_id # :97 Fitness :43423.87 Final Amt :1684.47 Days :236 Avg Daily Profit :-0.054 %
+Process ForkPoolWorker-5:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/multiprocessing/pool.py", line 125, in worker
+    put((job, i, result))
+  File "/usr/lib/python3.6/multiprocessing/queues.py", line 347, in put
+    self._writer.send_bytes(obj)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.6/multiprocessing/pool.py", line 130, in worker
+    put((job, i, (False, wrapped)))
+  File "/usr/lib/python3.6/multiprocessing/queues.py", line 347, in put
+    self._writer.send_bytes(obj)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Env #:0 Genome_id # :8 Fitness :-18690.47 Final Amt :1737.81 Days :236 Avg Daily Profit :-0.043 %
+Env #:0 Genome_id # :20 Fitness :-1226.73 Final Amt :1731.35 Days :236 Avg Daily Profit :-0.041 %
+Env #:0 Genome_id # :23 Fitness :24704.22 Final Amt :2387.78 Days :236 Avg Daily Profit :0.093 %
+Env #:0 Genome_id # :33 Fitness :5594.23 Final Amt :2224.69 Days :236 Avg Daily Profit :0.055 %
+Env #:0 Genome_id # :5 Fitness :-960.06 Final Amt :1731.35 Days :236 Avg Daily Profit :-0.041 %
+Env #:0 Genome_id # :3 Fitness :35863.86 Final Amt :2273.31 Days :236 Avg Daily Profit :0.081 %
+Env #:0 Genome_id # :42 Fitness :28474.94 Final Amt :2405.93 Days :236 Avg Daily Profit :0.105 %
+Env #:0 Genome_id # :3 Fitness :35863.86 Final Amt :2273.31 Days :236 Avg Daily Profit :0.081 %
+Env #:0 Genome_id # :7 Fitness :-16960.39 Final Amt :1767.68 Days :236 Avg Daily Profit :-0.035 %
+Env #:0 Genome_id # :39 Fitness :35728.93 Final Amt :1373.21 Days :236 Avg Daily Profit :-0.133 %
+Env #:0 Genome_id # :42 Fitness :28474.94 Final Amt :2405.93 Days :236 Avg Daily Profit :0.105 %
+Env #:0 Genome_id # :63 Fitness :10349.36 Final Amt :4882.0 Days :236 Avg Daily Profit :0.407 %
+Env #:0 Genome_id # :21 Fitness :11695.3 Final Amt :3450.33 Days :236 Avg Daily Profit :0.263 %
+Env #:0 Genome_id # :72 Fitness :4165.51 Final Amt :1344.9 Days :236 Avg Daily Profit :-0.144 %
+Env #:0 Genome_id # :22 Fitness :0.0 Final Amt :2000.0 Days :236 Avg Daily Profit :0.0 %
+Env #:0 Genome_id # :37 Fitness :32537.55 Final Amt :1510.52 Days :236 Avg Daily Profit :-0.096 %
+Env #:0 Genome_id # :85 Fitness :17489.36 Final Amt :2365.3 Days :236 Avg Daily Profit :0.09 %
+Env #:0 Genome_id # :89 Fitness :-6222.86 Final Amt :1851.03 Days :236 Avg Daily Profit :-0.03 %
+Env #:0 Genome_id # :81 Fitness :31311.79 Final Amt :605.38 Days :236 Avg Daily Profit :-0.487 %
+Env #:0 Genome_id # :3 Fitness :35863.86 Final Amt :2273.31 Days :236 Avg Daily Profit :0.081 %
+Env #:0 Genome_id # :47 Fitness :46351.15 Final Amt :2208.2 Days :236 Avg Daily Profit :0.07 %
+Env #:0 Genome_id # :104 Fitness :-14645.61 Final Amt :1568.53 Days :236 Avg Daily Profit :-0.081 %
+Env #:0 Genome_id # :93 Fitness :26114.27 Final Amt :1478.48 Days :236 Avg Daily Profit :-0.109 %
+Env #:0 Genome_id # :112 Fitness :-547.67 Final Amt :855.09 Days :236 Avg Daily Profit :-0.341 %
+Env #:0 Genome_id # :114 Fitness :28753.16 Final Amt :1247.53 Days :236 Avg Daily Profit :-0.178 %
+Env #:0 Genome_id # :60 Fitness :36898.33 Final Amt :1307.76 Days :236 Avg Daily Profit :-0.16 %
+Env #:0 Genome_id # :128 Fitness :-12087.69 Final Amt :2055.4 Days :236 Avg Daily Profit :0.031 %
+Env #:0 Genome_id # :99 Fitness :33998.21 Final Amt :1232.86 Days :236 Avg Daily Profit :-0.191 %
+Env #:0 Genome_id # :131 Fitness :29351.99 Final Amt :1325.58 Days :236 Avg Daily Profit :-0.147 %
+Env #:0 Genome_id # :60 Fitness :36898.33 Final Amt :1307.76 Days :236 Avg Daily Profit :-0.16 %
+Env #:0 Genome_id # :145 Fitness :-7767.66 Final Amt :2302.0 Days :236 Avg Daily Profit :0.064 %
+Env #:0 Genome_id # :111 Fitness :-15439.42 Final Amt :1602.91 Days :236 Avg Daily Profit :-0.074 %
+Env #:0 Genome_id # :151 Fitness :-1362.94 Final Amt :1731.35 Days :236 Avg Daily Profit :-0.041 %
+Env #:0 Genome_id # :95 Fitness :87.84 Final Amt :2250.2 Days :236 Avg Daily Profit :0.071 %
+Env #:0 Genome_id # :30 Fitness :28019.66 Final Amt :2533.91 Days :236 Avg Daily Profit :0.118 %
+Env #:0 Genome_id # :163 Fitness :17122.68 Final Amt :2260.87 Days :236 Avg Daily Profit :0.071 %
+Process ForkPoolWorker-8:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/multiprocessing/pool.py", line 125, in worker
+    put((job, i, result))
+  File "/usr/lib/python3.6/multiprocessing/queues.py", line 347, in put
+    self._writer.send_bytes(obj)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.6/multiprocessing/pool.py", line 130, in worker
+    put((job, i, (False, wrapped)))
+  File "/usr/lib/python3.6/multiprocessing/queues.py", line 347, in put
+    self._writer.send_bytes(obj)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe

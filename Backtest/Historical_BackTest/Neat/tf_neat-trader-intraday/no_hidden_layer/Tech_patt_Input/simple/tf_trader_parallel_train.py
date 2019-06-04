@@ -23,11 +23,11 @@ data = trader_data.csv_to_df(file_name)
 train_data, test_data = trader_data.split_data(data)
 # signals = trader_data.get_signals(data)
 
-env = trader_env.Weighted_Unrealized_BS_Env(train_data)
+env = trader_env.Weighted_Unrealized_BS_SL_Env(train_data)
 
 max_env_steps = len(env.data) - env.t - 1
 
-resume = True
+resume = False
 restore_file = "neat-checkpoint-0"
 
 
@@ -103,5 +103,5 @@ def run(n_generations, n_processes):
 
 
 if __name__ == "__main__":
-    run(n_generations=1, n_processes=4)
+    run(n_generations=50, n_processes=4)
 

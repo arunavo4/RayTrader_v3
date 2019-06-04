@@ -2,8 +2,7 @@ import glob
 import multiprocessing
 import trader_env
 import trader_data
-import visualize
-import reporter
+import genome_plots
 from statistics import mean
 import numpy as np
 import neat
@@ -22,7 +21,7 @@ config = neat.Config(neat.DefaultGenome, neat.DefaultReproduction,
 
 
 def eval_genome(genome, config, env_data):
-    env = trader_env.Weighted_Unrealized_BS_Env(env_data)
+    env = trader_env.Weighted_Unrealized_BS_SL_Env(env_data)
     max_env_steps = len(env.data) - env.t - 1
 
     ob = env.reset()
@@ -34,7 +33,9 @@ def eval_genome(genome, config, env_data):
     counter = 0
     step = 0
     step_max = max_env_steps
-
+    actions = []
+    for _ in range(env.t):
+        actions.append(0)
     done = False
 
     while not done:
@@ -42,6 +43,7 @@ def eval_genome(genome, config, env_data):
         # inputs = trader_data.get_inputs(signals, step)
         states = [ob]
         outputs = net.activate(states).numpy()
+        actions.append(np.argmax(outputs))
 
         ob, rew, done, _ = env.step(np.argmax(outputs))
         # print("id",genome_id,"Step:",step,"act:",np.argmax(nnOutput),"reward:",rew)
@@ -64,30 +66,31 @@ def eval_genome(genome, config, env_data):
             message = "Fitness :{} Max Fitness :{} Avg Daily Profit :{} %".format(fitness_current,
                                                                                   current_max_fitness,
                                                                                   round(mean(env.daily_profit_per), 3))
-            print("Initial Value: ",2000)
-            print("Final Value: ",env.amt)
-            print("Days: ",len(env.daily_profit_per))
             print(message)
-            # plt.title(genome.key)
-            # plt.plot(env.daily_profit_per)
-            # plt.show()
-            # logger.info(message)
 
         genome.fitness = fitness_current
+
+    return env, actions
 
 
 def run_tests(genome):
     global train_data, test_data
-    eval_genome(genome,config,train_data)
+    train_env, train_acts = eval_genome(genome,config,train_data)
 
-    eval_genome(genome,config,test_data)
+    test_env, test_acts = eval_genome(genome,config,test_data)
+
+    reward_filename = './/genome_plots//' + str(genome.key) + '_reward.png'
+    genome_plots.plot_train_test_reward(train_env.daily_profit_per, test_env.daily_profit_per, reward_filename)
+
+    actions_filename = './/genome_plots//' + str(genome.key) + '_actions.png'
+    date_split = '2018-12-28'
+    genome_plots.plot_train_test_actions(genome.key, train_env, test_env, train_acts, test_acts, date_split, actions_filename)
 
 
 def run_files(files_set):
     for genomeFile in files_set:
         genome = pickle.load(open(genomeFile, 'rb'))
         run_tests(genome)
-        print("#"*50)
 
 
 def chunks(seq, num):
@@ -103,7 +106,7 @@ def chunks(seq, num):
 
 
 # Load all the genomes
-files = glob.glob(".\\genomes\\*.pkl")
+files = glob.glob(".\\best_genomes\\*.pkl")
 n_processes = 3
 
 
@@ -123,9 +126,10 @@ if __name__ == "__main__":
     for t in threads:
         t.join()
 
-#
+
+# Single genome
 # if __name__ == "__main__":
-#     genomeFile = '.\\genomes\\594.pkl'
+#     genomeFile = '.\\genomes\\1042.pkl'
 #     genome = pickle.load(open(genomeFile, 'rb'))
 #     run_tests(genome)
 
